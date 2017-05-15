@@ -4,14 +4,16 @@
 
 # TEAMS
 
-| TEAMS | CONTACTER  | LEADER | MEMBERS |
-| :------------ |:---------------|:-----|:---|
-| col 3 is      | some wordy text | $1600 ||
-| col 2 is      | centered        |   $12 ||
-| zebra stripes | are neat        |    $1 ||
+| TEAMS | CONTACTER  | LEADER | MEMBERS |MONTHLY THEME|
+| :------------ |:---------------|:-----|:---|:---|
+| 甲   | some wordy text | $1600 |||
+| 乙   | centered        |   $12 |||
+| 丙   | are neat        |    $1 |||
+| 丁   | are neat        |    $1 |||
 
 
-
+天干：甲、乙、丙、丁、戊、己、庚、辛、壬、癸；
+地支：子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥；
 
 # RANKINGS
 
