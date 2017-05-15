@@ -4,9 +4,11 @@
 
 # TEAMS
 
+  交流群：288567296
+
 | TEAMS | CONTACTER  | LEADER | MEMBERS |MONTHLY THEME|
-| :------------ |:---------------|:-----|:---|:---|
-| 甲   | some wordy text | $1600 |||
+| :------------ :|:---------------|:-----|:---|:---|
+| 甲   | gezihuzi	495008890 | B1nGzl(5061610) |      |       |
 | 乙   | centered        |   $12 |||
 | 丙   | are neat        |    $1 |||
 | 丁   | are neat        |    $1 |||
