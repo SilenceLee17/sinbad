@@ -7,8 +7,8 @@
 
   **交流群：288567296**
 
-| TEAMS | CONTACTER  | LEADER | MEMBERS |MONTHLY THEME|
-|:----:|:-----------|:--------|:--------|:----------|
+|TEAMS|CONTACTER|LEADER|MEMBERS|MONTHLY THEME|
+|:-:|:-|:-|:-|:-|
 |甲| gezihuzi(495008890) | B1nGzl(5061610)|B1nGzl(5061610) Norman(9703797) HSHtime(747423692) gezihuzi(495008890) myhloli(466906969) unionrock(1014564010) he15his(349983741)        |not yet|
 |乙|     |song(1525058306) |||
 |丙|     | 布兜儿(527626504) |||
