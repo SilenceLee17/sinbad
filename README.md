@@ -1,11 +1,11 @@
 # OSG-TEAMS
 希望大家在合作中学习姿势、提升技术、交流感情。比赛第二，友谊第一。
 
-![](pic/teams.jpg)
+![师徒系统Beta](pic/teams.jpg)
 
 # TEAMS
 
-  交流群：288567296
+  **交流群：288567296**
 
 | TEAMS | CONTACTER  | LEADER | MEMBERS |MONTHLY THEME|
 |:----:|:-----------|:--------|:--------|:----------|
