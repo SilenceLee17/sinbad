@@ -8,7 +8,7 @@
 
 | TEAMS | CONTACTER  | LEADER | MEMBERS |MONTHLY THEME|
 |:----:|:-----------|:--------|:--------|:----------|
-| 甲    | gezihuzi(495008890) | B1nGzl(5061610) gezihuzi(495008890) myhloli(466906969) unionrock(1014564010) he15his(349983741)|        ||
+| 甲    | gezihuzi(495008890) | B1nGzl(5061610)|B1nGzl(5061610) Norman(9703797) HSHtime(747423692) gezihuzi(495008890) myhloli(466906969) unionrock(1014564010) he15his(349983741)        |not yet|
 | 乙   | centered        |   $12 |||
 | 丙   | are neat        |    $1 |||
 | 丁   | are neat        |    $1 |||
