@@ -2,8 +2,7 @@
 
 |LEVEL|TOPIC|ATTACHMENT|DEADLINE|
 |:--|--|--|:--|
-|★|翻译-用Fuzz使iOS App更加健壮和安全|[Make iOS App more Robust and
-Security through Fuzzing](https://ruxcon.org.au/assets/2016/slides/Make_iOS_App_more_Robust_and_Security_through_Fuzzing-1476442078)|Midnight 0f 28th,June|
+|★|翻译-用Fuzz使iOS App更加健壮和安全|[Make iOS App more Robust and Security through Fuzzing](https://ruxcon.org.au/assets/2016/slides/Make_iOS_App_more_Robust_and_Security_through_Fuzzing-1476442078.pdf)|Midnight 0f 28th,June|
 |★|实验-阻止iCloud 日历上的垃圾邮件邀请|[Preventing Spam iCloud Calendar Invites](https://aaron.blog/2016/11/25/preventing-spam-icloud-calendar-invites/)|Midnight 0f 28th,June|
 |★|翻译-APFS苹果文件系统初探|[APFS filesystem format](https://blog.cugu.eu/post/apfs/)|Midnight 0f 28th,June|
 |★★|实验-10.2.1上重打包iOS应用的方法|[Patching and Re-Signing iOS Apps](http://www.vantagepoint.sg/blog/85-patching-and-re-signing-ios-apps)|Midnight 0f 28th,June|
