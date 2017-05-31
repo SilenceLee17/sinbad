@@ -2,10 +2,10 @@
 
 |LEVEL|TOPIC|ATTACHMENT|DEADLINE|OWNER TEAM|
 |--|--|--|--|--|
-|★|阻止 iCloud 日历上的垃圾邮件邀请|[Preventing Spam iCloud Calendar Invites](https://aaron.blog/2016/11/25/preventing-spam-icloud-calendar-invites/)|MIDNIGHT 0F 28TH,JUNE||
-|★★|10.2.1上重打包iOS应用的方法|[Patching and Re-Signing iOS Apps](http://www.vantagepoint.sg/blog/85-patching-and-re-signing-ios-apps)|MIDNIGHT 0F 28TH,JUNE||
-|★★|OJTool工具介绍翻译、用法举例|[OJTool - Putting the J into otool(1)](http://newosxbook.com/tools/ojtool.html)|MIDNIGHT 0F 28TH,JUNE||
-|★★|JTool工具介绍翻译、用法举例|[jtool - Taking the O out of otool(1)](http://www.newosxbook.com/tools/jtool.html)|MIDNIGHT 0F 28TH,JUNE||
+|★|实验-阻止iCloud 日历上的垃圾邮件邀请|[Preventing Spam iCloud Calendar Invites](https://aaron.blog/2016/11/25/preventing-spam-icloud-calendar-invites/)|Midnight 0f 28th,June||
+|★★|实验-10.2.1上重打包iOS应用的方法|[Patching and Re-Signing iOS Apps](http://www.vantagepoint.sg/blog/85-patching-and-re-signing-ios-apps)|Midnight 0f 28th,June||
+|★★|OJTool工具介绍翻译、用法举例|[OJTool - Putting the J into otool(1)](http://newosxbook.com/tools/ojtool.html)|Midnight 0f 28th,June||
+|★★|JTool工具介绍翻译、用法举例|[jtool - Taking the O out of otool(1)](http://www.newosxbook.com/tools/jtool.html)|Midnight 0f 28th,June||
 
 ***
 
