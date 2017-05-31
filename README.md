@@ -3,12 +3,16 @@
 
 ![师徒系统Beta](pic/teams.jpg)
 
+***
+
 # TOPICS OF JUNE
 
 |LEVEL|TOPIC|ATTACHMENT|DEADLINE|OWNER TEAM|
 |--|--|--|--|--|
-|★|JTool|[OJTool - Putting the J into otool(1)](http://newosxbook.com/tools/ojtool.html)|MIDNIGHT 0F 28TH,JUNE||
+|★★|OJTool工具介绍翻译、用法举例|[OJTool - Putting the J into otool(1)](http://newosxbook.com/tools/ojtool.html)|MIDNIGHT 0F 28TH,JUNE||
+|★★|JTool工具介绍翻译、用法举例|[jtool - Taking the O out of otool(1)](http://www.newosxbook.com/tools/jtool.html)|MIDNIGHT 0F 28TH,JUNE||
 
+***
 
 
 # TEAMS
