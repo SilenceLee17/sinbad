@@ -14,7 +14,7 @@
 
 **交流群：288567296**
 
-|TEAMS|CONTACTER|LEADER|MEMBERS|MONTHLY THEME|
+|TEAMS|CONTACTER|LEADER|MEMBERS|MONTHLY TOPIC|
 |:-:|:-|:-|:-|:-|
 |甲| gezihuzi(\*9500\*\*90) | B1nGzl(50\*1\*10)|B1nGzl(50\*1\*10) Norman(9703797) HSHtime(7\*7\*23\*92) gezihuzi(\*9500\*\*90) myhloli(\*\*\*90\*9\*9) unionrock(101\*5\*\*010) he15his(3\*99\*37\*1)        |not yet|
 |乙|  太阳（2\*7\*00123  	 |song(152505\*30\*) |song(152505\*30\*) Ouroboros(\*\*5277\*0) 夏天吃雪糕(9\*7\*323\*0) 太阳（2\*7\*00123）理查德（110\*00\*\*）小憨（519\*\*\*07\*）blackcore（10\*017\*20）|not yet|
