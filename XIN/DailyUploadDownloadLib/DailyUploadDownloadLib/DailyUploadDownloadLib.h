@@ -2,8 +2,8 @@
 //  DailyUploadDownloadLib.h
 //  DailyUploadDownloadLib
 //
-//  Created by Sinbad on 2017/6/28.
-//  Copyright © 2017年 kanxue. All rights reserved.
+//  Created by 李兴东 on 17/6/8.
+//  Copyright © 2017年 xingshao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

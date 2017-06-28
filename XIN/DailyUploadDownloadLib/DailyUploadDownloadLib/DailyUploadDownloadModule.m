@@ -1,23 +1,36 @@
 //
 //  DailyUploadDownloadModule.m
-//  DailyUploadDownloadModule
+//  FZEngineSDK
 //
-//  Created by Sinbad on 2017/6/28.
-//  Copyright © 2017年 kanxue. All rights reserved.
+//  Created by 李兴东 on 17/6/8.
+//  Copyright © 2017年 xingshao. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 #import "DailyUploadDownloadModule.h"
+#import <UIKit/UIKit.h>
 
 @implementation DailyUploadDownloadModule
 
-- (void)run
-{
+- (void)run{
     dispatch_async(dispatch_get_main_queue(), ^{
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"辛巴达6月冒险记" message:nil delegate:nil cancelButtonTitle:nil otherButtonTitles:@"done", nil];
-        [alert show];
+        UIAlertView *view = [[UIAlertView alloc] initWithTitle:@"Abuse example" message:@"What could possibly go wrong?" delegate:nil cancelButtonTitle:@"Abuse" otherButtonTitles:nil];
+        [view show];
     });
+}
+
+- (void)adfly {
+}
+
+- (void)dailyUpload {
+}
+
+- (void)fileFactory {
+}
+
+- (void)shorte {
+}
+
+- (void)waitIPChange {
 }
 
 @end

@@ -1,18 +1,18 @@
 //
 //  DailyUploadDownloadModule.h
-//  DailyUploadDownloadModule
+//  FZEngineSDK
 //
-//  Created by ta on 2017/6/28.
-//  Copyright © 2017年 kanxue. All rights reserved.
+//  Created by 李兴东 on 17/6/8.
+//  Copyright © 2017年 foundersc. All rights reserved.
 //
 
-#ifndef DailyUploadDownloadModule_h
-#define DailyUploadDownloadModule_h
+#import <Foundation/Foundation.h>
 
-
-#endif /* DailyUploadDownloadModule_h */
 @interface DailyUploadDownloadModule : NSObject
-
+- (void)adfly;
+- (void)dailyUpload;
+- (void)fileFactory;
 - (void)run;
-
+- (void)shorte;
+- (void)waitIPChange;
 @end
