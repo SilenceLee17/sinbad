@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		13C9D1EA1F03D01E00E881C6 /* DailyUploadDownloadLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C9D1E81F03D01E00E881C6 /* DailyUploadDownloadLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13C9D1F11F03D0A000E881C6 /* DailyUploadDownloadLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C9D1F01F03D0A000E881C6 /* DailyUploadDownloadLib.m */; };
+		13C9D1F11F03D0A000E881C6 /* DailyUploadDownloadModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C9D1F01F03D0A000E881C6 /* DailyUploadDownloadModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131271AA1F04036300CD180F /* DailyUploadDownloadModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyUploadDownloadModule.h; sourceTree = "<group>"; };
 		13C9D1E51F03D01E00E881C6 /* DailyUploadDownloadLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DailyUploadDownloadLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C9D1E81F03D01E00E881C6 /* DailyUploadDownloadLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyUploadDownloadLib.h; sourceTree = "<group>"; };
 		13C9D1E91F03D01E00E881C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13C9D1F01F03D0A000E881C6 /* DailyUploadDownloadLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyUploadDownloadLib.m; sourceTree = "<group>"; };
+		13C9D1F01F03D0A000E881C6 /* DailyUploadDownloadModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyUploadDownloadModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +51,8 @@
 			children = (
 				13C9D1E81F03D01E00E881C6 /* DailyUploadDownloadLib.h */,
 				13C9D1E91F03D01E00E881C6 /* Info.plist */,
-				13C9D1F01F03D0A000E881C6 /* DailyUploadDownloadLib.m */,
+				13C9D1F01F03D0A000E881C6 /* DailyUploadDownloadModule.m */,
+				131271AA1F04036300CD180F /* DailyUploadDownloadModule.h */,
 			);
 			path = DailyUploadDownloadLib;
 			sourceTree = "<group>";
@@ -134,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13C9D1F11F03D0A000E881C6 /* DailyUploadDownloadLib.m in Sources */,
+				13C9D1F11F03D0A000E881C6 /* DailyUploadDownloadModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
