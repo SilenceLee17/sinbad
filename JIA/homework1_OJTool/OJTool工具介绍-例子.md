@@ -4,3 +4,5 @@
 3. otool(mac系统应该都有吧，没有的自己网上下个放到/usr/bin下)
 
 #例子
+![](./images/otool1.png)
+![](./images/ojtool1.png)
