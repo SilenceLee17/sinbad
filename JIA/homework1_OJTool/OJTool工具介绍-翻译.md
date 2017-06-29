@@ -66,7 +66,7 @@ Zephyr:Work morpheus$ ./otoolfilt /bin/ls | tail -10
 <img src="./images/otoolsux.png" alt="" />
 </td>
 <td>
-<img src="./images/otoolrox.png" alt="" />
+<img src="./images/ojtoolrox.png" alt="" />
 </tr>
 </table>
 - **Companion file支持:**jtool仍然不会做intel反编译，但是你可以强制使用companion file创建，使用```--jtooldir dir -d __DATA.__const binary > /dev/null```。如果JTOOLDIR=指定路径(或者你在同一目录中)则companion file将被ojtool拾取。这个就可以设置你自己的symbols，包括全局变量，来符号化intel二进制文件，arm文件也一样。
