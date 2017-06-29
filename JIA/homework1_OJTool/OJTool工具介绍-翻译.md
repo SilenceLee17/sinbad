@@ -59,7 +59,8 @@ Zephyr:Work morpheus$ ./otoolfilt /bin/ls | tail -10
 ## Obj-C和companin file支持（05/26/2017）
 我在一次MacOS应用逆向的培训中遇到了一个问题然后我引入了两个快速hack的重要方法到ojtool：
 
-- **Objective-C支持:**有/没有companion file，ojtool将获取所有__DATA.__objc* section和__got数据。**注意这是一个hack类别，它对ojtool性能有点影响**，但是值得的
+- **Objective-C支持:** 有/没有companion file，ojtool将获取所有__DATA.__objc\* section和 __got数据。**注意这是一个hack类别，它对ojtool性能有点影响**，但是值得的。
+
 <table>
 <tr>
 <td>
@@ -69,7 +70,8 @@ Zephyr:Work morpheus$ ./otoolfilt /bin/ls | tail -10
 <img src="./images/ojtoolrox.png" alt="" />
 </tr>
 </table>
-- **Companion file支持:**jtool仍然不会做intel反编译，但是你可以强制使用companion file创建，使用```--jtooldir dir -d __DATA.__const binary > /dev/null```。如果JTOOLDIR=指定路径(或者你在同一目录中)则companion file将被ojtool拾取。这个就可以设置你自己的symbols，包括全局变量，来符号化intel二进制文件，arm文件也一样。
+
+- **Companion file支持:** jtool仍然不会做intel反编译，但是你可以强制使用companion file创建，使用```--jtooldir dir -d __DATA.__const binary > /dev/null```。如果JTOOLDIR=指定路径(或者你在同一目录中)则companion file将被ojtool拾取。这个就可以设置你自己的symbols，包括全局变量，来符号化intel二进制文件，arm文件也一样。
 
 ## 哪儿获取
 源地址:[ http://newosxbook.com/src.jl?tree=listings&file=otoolfilt.c]( http://newosxbook.com/src.jl?tree=listings&file=otoolfilt.c)
