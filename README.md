@@ -1,5 +1,4 @@
 # RANKINGS
-------
 
 |BLACK|POINT|WHITE|POINT|KANXUE|POINT|
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -8,6 +7,7 @@
 |||||XGalaxy|200|
 |||||AliceForever|200|
 
+------
 
 # TOPICS OF JULY
 
@@ -29,7 +29,6 @@
 >文档越好、动手越多、难度越大，分数越高；反之文档不友好、动手很粗糙、难度入门级，分数越低。
 
 ***
-
 
 # TEAMS
 
