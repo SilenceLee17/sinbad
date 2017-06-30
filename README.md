@@ -2,6 +2,7 @@
 ------
 
 |BLACK|POINT|WHITE|POINT|KANXUE|POINT|
+|黑苹果群|积分|白苹果群|积分|雪花群|积分|
 |--|--|--|--|--|--|
 |afox|300|||物以类聚|300|
 |||||XGalaxy|200|
