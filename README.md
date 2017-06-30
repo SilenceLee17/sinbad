@@ -1,3 +1,13 @@
+# RANKINGS
+------
+
+|ID|POINT|
+|afox|300|
+|物以类聚|300|
+|XGalaxy|200|
+|AliceForever|200|
+
+
 # TOPICS OF JULY
 
 |LEVEL|TOPIC|ATTACHMENT|DEADLINE|
