@@ -2,13 +2,13 @@
 
 |LEVEL|TOPIC|ATTACHMENT|DEADLINE|
 |:--|--|--|:--|
-|★|翻译-用Fuzz使iOS App更加健壮和安全|[Make iOS App more Robust and Security through Fuzzing](https://ruxcon.org.au/assets/2016/slides/Make_iOS_App_more_Robust_and_Security_through_Fuzzing-1476442078.pdf)|Midnight 0f 28th,June|
-|★|实验-阻止iCloud 日历上的垃圾邮件邀请|[Preventing Spam iCloud Calendar Invites](https://aaron.blog/2016/11/25/preventing-spam-icloud-calendar-invites/)|Midnight 0f 28th,June|
-|★|翻译-APFS苹果文件系统初探|[APFS filesystem format](https://blog.cugu.eu/post/apfs/)|Midnight 0f 28th,June|
-|★★|实验-10.2.1上重打包iOS应用的方法|[Patching and Re-Signing iOS Apps](http://www.vantagepoint.sg/blog/85-patching-and-re-signing-ios-apps)|Midnight 0f 28th,June|
-|★★|Mac平台恶意广告一览-翻译及适当例证|[An overview of malvertising on the Mac](https://blog.malwarebytes.com/threat-analysis/social-engineering-threat-analysis/2016/11/an-overview-of-malvertising-on-the-mac/)|Midnight 0f 28th,June|
-|★★|OJTool工具介绍翻译、用法举例|[OJTool - Putting the J into otool(1)](http://newosxbook.com/tools/ojtool.html)|Midnight 0f 28th,June|
-|★★|JTool工具介绍翻译、用法举例|[jtool - Taking the O out of otool(1)](http://www.newosxbook.com/tools/jtool.html)|Midnight 0f 28th,June|
+|★|基于python的开源LLDB前端GUI-Voltron简介、安装及使用|[extensible debugger UI toolkit written in Python](https://github.com/snare/voltron)|Midnight 0f 28th,June|
+|★| 如何在 macOS 上安装 Powershell 6.0|[How to install Microsoft PowerShell 6.0 on macOS](http://www.techrepublic.com/article/how-to-install-microsoft-powershell-6-0-on-macos/)|Midnight 0f 28th,June|
+|★|dyld_cache_extract - 从 macOS/iOS dyld_shared_cache 中提取动态库的工具|[dyld_cache_extract](https://github.com/macmade/dyld_cache_extract)|Midnight 0f 28th,June|
+|★★|MacSpy 被认为是 macOS 系统中目前最为复杂的间谍软件|[MacSpy: OS X RAT as a Service](https://www.alienvault.com/blogs/labs-research/macspy-os-x-rat-as-a-service)|Midnight 0f 28th,June|
+|★★|近期几款色情 App 开始大量在 Android 和 iOS 平台上传播，他们甚至找到了上架 Apple App Store 的方式|[PUA Operation Spreads Thousands of Explicit Apps in the Wild and on Legitimate App Stores](http://blog.trendmicro.com/trendlabs-security-intelligence/pua-operation-spreads-thousands-explicit-apps-wild-legitimate-app-stores/)|Midnight 0f 28th,June|
+|★★|APT团队海莲花出新品啦——全新设计的高级macOS后门软体套件！|[The New and Improved macOS Backdoor from OceanLotus](https://researchcenter.paloaltonetworks.com/2017/06/unit42-new-improved-macos-backdoor-oceanlotus/)|Midnight 0f 28th,June|
+|★★|如何在 macOS 中监控指定应用的 HTTPS 流量|[Monitoring HTTPS Traffic of a Single App on OSX](Monitoring HTTPS Traffic of a Single App on OSX)|Midnight 0f 28th,June|
 |★★★|“捡到一个亿”系列：盘古Janus原型：云舒幻盾原型：伸缩性规模化分布式全自动蠕虫木马代码定位检测系统暨入侵预警与防御系统原型机白皮书|[Laika BOSS: Object Scanning System](https://github.com/lmco/laikaboss)|Midnight 0f 28th,June|
 ★★★|实验code review 解码苹果上所有的Tokens decrypts/extracts all authorization tokens on macOS/OSX|[MMeTokenDecrypt](https://github.com/manwhoami/MMeTokenDecrypt)|Midnight 0f 28th,June|
 |★★★|joker：使用joker抽取iOS 11的kernelcache|[Joker](http://newosxbook.com/tools/joker.html)|Midnight 0f 28th,June|
