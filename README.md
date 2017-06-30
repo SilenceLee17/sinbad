@@ -8,12 +8,12 @@
 |★★|MacSpy 被认为是 macOS 系统中目前最为复杂的间谍软件|[MacSpy: OS X RAT as a Service](https://www.alienvault.com/blogs/labs-research/macspy-os-x-rat-as-a-service)|Midnight 0f 28th,June|
 |★★|近期几款色情 App 开始大量在 Android 和 iOS 平台上传播，他们甚至找到了上架 Apple App Store 的方式|[PUA Operation Spreads Thousands of Explicit Apps in the Wild and on Legitimate App Stores](http://blog.trendmicro.com/trendlabs-security-intelligence/pua-operation-spreads-thousands-explicit-apps-wild-legitimate-app-stores/)|Midnight 0f 28th,June|
 |★★|APT团队海莲花出新品啦——全新设计的高级macOS后门软体套件！|[The New and Improved macOS Backdoor from OceanLotus](https://researchcenter.paloaltonetworks.com/2017/06/unit42-new-improved-macos-backdoor-oceanlotus/)|Midnight 0f 28th,June|
-|★★|如何在 macOS 中监控指定应用的 HTTPS 流量|[Monitoring HTTPS Traffic of a Single App on OSX](Monitoring HTTPS Traffic of a Single App on OSX)|Midnight 0f 28th,June|
+|★★|如何在 macOS 中监控指定应用的 HTTPS 流量|[Monitoring HTTPS Traffic of a Single App on OSX](https://calebfenton.github.io/2017/05/27/monitoring-https-of-a-single-app-on-osx/)|Midnight 0f 28th,June|
 |★★★|“捡到一个亿”系列：盘古Janus原型：云舒幻盾原型：伸缩性规模化分布式全自动蠕虫木马代码定位检测系统暨入侵预警与防御系统原型机白皮书|[Laika BOSS: Object Scanning System](https://github.com/lmco/laikaboss)|Midnight 0f 28th,June|
 ★★★|实验code review 解码苹果上所有的Tokens decrypts/extracts all authorization tokens on macOS/OSX|[MMeTokenDecrypt](https://github.com/manwhoami/MMeTokenDecrypt)|Midnight 0f 28th,June|
 |★★★|joker：使用joker抽取iOS 11的kernelcache|[Joker](http://newosxbook.com/tools/joker.html)|Midnight 0f 28th,June|
 
->虽然写的是翻译，但是建议动手做一做；
+>[TopicHistory](TopicHistory.md)
 
 >文档越好、动手越多、难度越大，分数越高；反之文档不友好、动手很粗糙、难度入门级，分数越低。
 
