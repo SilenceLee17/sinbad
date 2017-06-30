@@ -9,9 +9,9 @@
 |★★|Mac平台恶意广告一览-翻译及适当例证|[An overview of malvertising on the Mac](https://blog.malwarebytes.com/threat-analysis/social-engineering-threat-analysis/2016/11/an-overview-of-malvertising-on-the-mac/)|Midnight 0f 28th,June|
 |★★|OJTool工具介绍翻译、用法举例|[OJTool - Putting the J into otool(1)](http://newosxbook.com/tools/ojtool.html)|Midnight 0f 28th,June|
 |★★|JTool工具介绍翻译、用法举例|[jtool - Taking the O out of otool(1)](http://www.newosxbook.com/tools/jtool.html)|Midnight 0f 28th,June|
-|★★|iOS.GuiInject广告木马库分析之插入正常App里试试看|[Analysis of iOS.GuiInject Adware Library](https://sentinelone.com/blogs/analysis-ios-guiinject-adware-library/)|Midnight 0f 28th,June|
+|★★★|“捡到一个亿”系列：盘古Janus原型：云舒幻盾原型：伸缩性规模化分布式全自动蠕虫木马代码定位检测系统暨入侵预警与防御系统原型机白皮书|[Laika BOSS: Object Scanning System](https://github.com/lmco/laikaboss)|Midnight 0f 28th,June|
 ★★★|实验code review 解码苹果上所有的Tokens decrypts/extracts all authorization tokens on macOS/OSX|[MMeTokenDecrypt](https://github.com/manwhoami/MMeTokenDecrypt)|Midnight 0f 28th,June|
-|★★★|翻译-iOS 9 开始引入的内核完整性保护（KPP）功能是如何实现的|[Tick (FPU) Tock (IRQ)](https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html)|Midnight 0f 28th,June|
+|★★★|joker：使用joker抽取iOS 11的kernelcache|[Joker](http://newosxbook.com/tools/joker.html)|Midnight 0f 28th,June|
 
 >虽然写的是翻译，但是建议动手做一做；
 
