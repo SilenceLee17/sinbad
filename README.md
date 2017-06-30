@@ -1,12 +1,11 @@
 # RANKINGS
 ------
 
-|ID|POINT|
-|--|--|
-|afox|300|
-|物以类聚|300|
-|XGalaxy|200|
-|AliceForever|200|
+|BLACK|POINT|WHITE|POINT|KANXUE|POINT|
+|--|--|--|--|--|--|
+|afox|300|||物以类聚|300|
+|||||XGalaxy|200|
+|||||AliceForever|200|
 
 
 # TOPICS OF JULY
