@@ -3,12 +3,15 @@
 |BLACK|POINT|WHITE|POINT|KANXUE|POINT|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |黑苹果群|积分|白苹果群|积分|雪花群|积分|
-|afox|300|||物以类聚|300|
+|afox|300|AloneMonkey|135|物以类聚|300|
 |rainyx|200|||XGalaxy|200|
-|||||AliceForever|200|
+|布兜儿|135|||AliceForever|200|
 |||||紫枫闲人|200|
 |||||黑煤炭|200|
-
+|||||madmark |180|
+|||||chen|180|
+|||||liuswear|135|
+|||||kiba|135|
 ------
 
 # TOPICS OF JULY
