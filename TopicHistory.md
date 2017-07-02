@@ -7,6 +7,7 @@
 |戊|800||
 |甲|700|B1nGzl:100 星期五:150 HSHtime:150 今天星期六吧:100 myhloli:100 iOSSecret:100|
 |己|600|rainyx:200 紫枫闲人:200 黑煤炭:200|
+|丑|500||
 
 
 # TOPICS OF JUNE
