@@ -4,7 +4,7 @@
 |:-:|:-:|:--:|
 |辛|1000|afox:300 物以类聚:300 XGalaxy:200   aliceforever:200|
 |丙|900|布兜儿：135 AloneMonkey：135 liuswear:135 madmark:180 kiba:135 chen:180|
-|戊|800||
+|戊|800|爱心觉罗:100 cosmosdzh:200 龙幽:100 asel:150 lostkid-hz:150 七步阶:100|
 |甲|700|B1nGzl:100 星期五:150 HSHtime:150 今天星期六吧:100 myhloli:100 iOSSecret:100|
 |己|600|rainyx:200 紫枫闲人:200 黑煤炭:200|
 |丑|500|黄大先生:150 凌迟:175 小学生:175|
