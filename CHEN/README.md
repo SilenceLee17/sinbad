@@ -9,3 +9,14 @@
 
 * week 3 6月19日 - 6月25日  输出实验 与翻译的文档。
 
+## 完成 由于时间有限，完成部分，后面有时间 逐渐添加PPT中的实验
+
+* Unix 完成 AFL的编译 与验证。
+
+![UnixAFL](afl.png)
+
+* AFL-ios 移植与实验
+
+![IOSAFL](afl-ios.png)
+
+* AFL-ios 其他实验步骤（后续补充）
