@@ -85,7 +85,7 @@ sudo pip install mitmproxy # 这是关键
 ![](images/mitmproxy_https.png)
 
 
-####3.抓取电脑上的请求
+#### 3.抓取电脑上的请求
 现在你已经有了一个localhost的proxychains配置，证书已装，mitmproxy正在运行，使用mitmproxy和proxychains4抓取电脑的请求试试
 
 
