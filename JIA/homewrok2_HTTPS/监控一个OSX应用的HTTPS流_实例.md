@@ -1,8 +1,8 @@
 ## 监控一个OSX应用的HTTPS流-实例
 
-###准备工作
+### 准备工作
 
-####1.安装proxychains-ng
+#### 1.安装proxychains-ng
 
 ```
 $ brew install proxychains-ng
@@ -26,7 +26,7 @@ http 127.0.0.1 8080
 
 
 
-####2.用pip安装mitmproxy
+#### 2.用pip安装mitmproxy
 没有安装pip的使用```$ easy_install pip```进行安装，接下来安装mitmproxy
 
 ```
@@ -40,9 +40,9 @@ sudo pip install mitmproxy # 这是关键
 
 
 
-###实战
+### 实战
 
-####1. mitmproxy小试牛刀
+#### 1. mitmproxy小试牛刀
 等一切安装完成，终端输入```$ mitmproxy ```直接启动监控，默认端口是8080，也可使用```$ mitmproxy -p 1234```指定端口，启动后如图
 
 ![](images/mitmproxy_init.png)
@@ -61,7 +61,7 @@ sudo pip install mitmproxy # 这是关键
 
 
 
-####2.HTTPS监控
+#### 2.HTTPS监控
 上面已经能抓到http的包了，不过并没有看到https的包，接下来带大家抓取https包
 
 启动过mitproxy后它会在~/.mitproxy生成一个根证书
