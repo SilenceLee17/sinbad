@@ -129,7 +129,7 @@ r = requests.get('https://calebfenton.github.io/')
 print(r)
 ```
 
-如果你之前没装requests你需要用`pip install reqquests`安装。这个脚本跟`curl`做的事一样，除了它输出会少很多。让我们用proxychains试试:
+如果你之前没装requests你需要用`pip install requests`安装。这个脚本跟`curl`做的事一样，除了它输出会少很多。让我们用proxychains试试:
 
 ```
 $ proxychains4 python req.py # automatically finds proxychains.conf
