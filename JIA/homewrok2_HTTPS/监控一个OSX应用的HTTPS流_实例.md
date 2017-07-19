@@ -30,10 +30,10 @@ http 127.0.0.1 8080
 没有安装pip的使用```$ easy_install pip```进行安装，接下来安装mitmproxy
 
 ```
-\# 因为我知道你可能从来不更新pip，并且这是一个测试，看你是会仔细看还是只是拷贝/复制一切
+# 因为我知道你可能从来不更新pip，并且这是一个测试，看你是会仔细看还是只是拷贝/复制一切
 sudo pip install --upgrade pip
 sudo pip install mitmproxy # 这是关键
-\#如果用的是python2，用sudo pip install "mitmproxy==0.18.2"，因为新版本只支持python3 (译者注)
+#如果用的是python2，用sudo pip install "mitmproxy==0.18.2"，因为新版本只支持python3 (译者注)
 ```
 
 **提醒**：千万别替换系统的python2.7版本(使用```$ python --version```查看版本)，这会出现一系列链接问题，比如Xcode会打不开，直接安装0.18.2的吧
