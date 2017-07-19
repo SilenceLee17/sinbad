@@ -33,7 +33,7 @@ http 127.0.0.1 8080
 # 因为我知道你可能从来不更新pip，并且这是一个测试，看你是会仔细看还是只是拷贝/复制一切
 sudo pip install --upgrade pip
 sudo pip install mitmproxy # 这是关键
-#如果用的是python2，用sudo pip install "mitmproxy==0.18.2"，因为新版本只支持python3 (译者注)
+# 如果用的是python2，用sudo pip install "mitmproxy==0.18.2"，因为新版本只支持python3 (译者注)
 ```
 
 **提醒**：千万别替换系统的python2.7版本(使用```$ python --version```查看版本)，这会出现一系列链接问题，比如Xcode会打不开，直接安装0.18.2的吧
@@ -85,16 +85,29 @@ sudo pip install mitmproxy # 这是关键
 ![](images/mitmproxy_https.png)
 
 
-#### 3.抓取电脑上的请求
+#### 3.抓取终端上的请求
 现在你已经有了一个localhost的proxychains配置，证书已装，mitmproxy正在运行，使用mitmproxy和proxychains4抓取电脑的请求试试
-
 
 ```
 $ proxychains4 -f proxychains.conf curl https://calebfenton.github.io/
-
 ```
 直接抓取到了
 ![](images/proxychains_demo.png)
+
+同理，你也可以使用proxychains4代理到mitmproxy抓取wget、git等终端命令的网络请求
+
+#### 4.抓取python代码中的请求
+
+新建一个req.py文件，添加下面代码到req.py:
+
+```
+import requests
+r = requests.get('https://calebfenton.github.io/', verify='/Users/你的用户名/.mitmproxy/mitmproxy-ca-cert.pem')
+print(r)
+```
+用```$ proxychains4 python req.py```来运行python代码，就能正常抓到python中的请求了
+
+
 
 
 
