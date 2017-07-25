@@ -1,0 +1,640 @@
+This is a 64-bit kernel from iOS 11.x (b1+), or later (4397.0.0.2.4)
+ARM64 Exception Vector is at file offset @0x83000 (Addr: 0xfffffff007087000)
+mach_trap_table offset in file/memory (for patching purposes): 0x60710/fffffff007064710
+Kern invalid should be fffffff0070d6e64. Ignoring those
+ 10 _kernelrpc_mach_vm_allocate_trap         fffffff0070a6a44 -
+ 11 _kernelrpc_vm_allocate_trap              fffffff0070a6d08 -
+ 12 _kernelrpc_mach_vm_deallocate_trap       fffffff0070a6af0 -
+ 14 _kernelrpc_mach_vm_protect_trap          fffffff0070a6ba0 -
+ 15 _kernelrpc_vm_protect_trap               fffffff0070a6c0c -
+ 16 _kernelrpc_mach_port_allocate_trap       fffffff0070a6dd4 -
+ 17 _kernelrpc_mach_port_destroy_trap        fffffff0070a6e70 -
+ 18 _kernelrpc_mach_port_deallocate_trap     fffffff0070a6ed4 -
+ 19 _kernelrpc_mach_port_mod_refs_trap       fffffff0070a6f38 -
+ 20 _kernelrpc_mach_port_move_member_trap    fffffff0070a6fa4 -
+ 21 _kernelrpc_mach_port_insert_right_trap   fffffff0070a700c -
+ 22 _kernelrpc_mach_port_insert_member_trap  fffffff0070a7128 -
+ 23 _kernelrpc_mach_port_extract_member_trap fffffff0070a7190 -
+ 24 __kernelrpc_mach_port_construct_trap     fffffff0070a71f8 -
+ 25 __kernelrpc_mach_port_destruct_trap      fffffff0070a72a4 -
+ 26 mach_reply_port                          fffffff0070b6738 -
+ 27 thread_self_trap                         fffffff0070b6710 -
+ 28 task_self_trap                           fffffff0070b66e4 -
+ 29 host_self_trap                           fffffff0070b47fc -
+ 31 mach_msg_trap                            fffffff0070a94f0 -
+ 32 mach_msg_overwrite_trap                  fffffff0070a9008 -
+ 33 semaphore_signal_trap                    fffffff0070d5750 -
+ 34 semaphore_signal_all_trap                fffffff0070d582c -
+ 35 semaphore_signal_thread_trap             fffffff0070d5690 -
+ 36 semaphore_wait_trap                      fffffff0070d5b54 -
+ 37 semaphore_wait_signal_trap               fffffff0070d5dfc -
+ 38 semaphore_timedwait_trap                 fffffff0070d5cd4 -
+ 39 semaphore_timedwait_signal_trap          fffffff0070d5eac -
+ 41 __kernelrpc_mach_port_guard_trap         fffffff0070a7310 -
+ 42 __kernelrpc_mach_port_unguard_trap       fffffff0070a737c -
+ 43 map_fd                                   fffffff0070a68fc -
+ 44 task_name_for_pid                        fffffff0074635d4 -
+ 45 task_for_pid                             fffffff007462f74 -
+ 46 pid_for_task                             fffffff007462d6c -
+ 48 macx_swapon                              fffffff0074660f0 -
+ 49 macx_swapoff                             fffffff0074660f8 -
+ 50 kern_invalid                             fffffff0070b678c -
+ 51 macx_triggers                            fffffff007466050 -
+ 52 macx_backing_store_suspend               fffffff007466048 -
+ 53 macx_backing_store_recovery              fffffff007466040 -
+ 58 pfz_exit                                 fffffff0070d6028 -
+ 59 swtch_pri                                fffffff0070d616c -
+ 60 swtch                                    fffffff0070d6030 -
+ 61 thread_switch                            fffffff0070d6494 -
+ 62 clock_sleep_trap                         fffffff0070aebcc -
+ 70 host_create_mach_voucher_trap            fffffff0070a73e4 -
+ 72 mach_voucher_extract_attr_recipe_trap    fffffff0070a75d0 -
+ 89 mach_timebase_info_trap                  fffffff0070adab0 -
+ 90 mach_wait_until_trap                     fffffff0070ae29c -
+ 91 mk_timer_create_trap                     fffffff0070bbd54 -
+ 92 mk_timer_destroy_trap                    fffffff0070bc034 -
+ 93 mk_timer_arm_trap                        fffffff0070bc0b4 -
+ 94 mk_timer_cancel_trap                     fffffff0070bc244 -
+ 95 kern_invalid                             fffffff0070bc230 -
+100 iokit_user_client_trap                   fffffff007542510 -
+
+Syscalls at address 0xfffffff00706abe8
+Sysent offset in file (for patching purposes):  66be8
+Suppressing enosys (fffffff007408c24) and old (fffffff007408c04)
+1.. exit                 0xfffffff0073d9544
+2.. fork                 0xfffffff0073dfbc0
+3.. read                 0xfffffff007408cd0
+4.. write                0xfffffff007409374
+5.. open                 0xfffffff0071d28d4
+6.. close                0xfffffff0073bd6e4
+7.. wait4                0xfffffff0073dc7c8
+9.. link                 0xfffffff0071d3a84
+10.. unlink               0xfffffff0071d4a1c
+12.. chdir                0xfffffff0071d1ab8
+13.. fchdir               0xfffffff0071d17f4
+14.. mknod                0xfffffff0071d332c
+15.. chmod                0xfffffff0071d6d64
+16.. chown                0xfffffff0071d7024
+18.. getfsstat            0xfffffff0071d107c
+20.. getpid               0xfffffff0073e7934
+23.. setuid               0xfffffff0073e7f90
+24.. getuid               0xfffffff0073e7a2c
+25.. geteuid              0xfffffff0073e7a88
+26.. ptrace               0xfffffff0074032b8
+27.. recvmsg              0xfffffff00744a6d4
+28.. sendmsg              0xfffffff007449730
+29.. recvfrom             0xfffffff00744a134
+30.. accept               0xfffffff0074482b8
+31.. getpeername          0xfffffff00744b88c
+32.. getsockname          0xfffffff00744b74c
+33.. access               0xfffffff0071d5918
+34.. chflags              0xfffffff0071d66e8
+35.. fchflags             0xfffffff0071d68fc
+36.. sync                 0xfffffff0071d03dc
+37.. kill                 0xfffffff0073ef75c
+39.. getppid              0xfffffff0073e7944
+41.. dup                  0xfffffff0073b8ef8
+42.. pipe                 0xfffffff00740df4c
+43.. getegid              0xfffffff0073e7c40
+46.. sigaction            0xfffffff0073ed3f0
+47.. getgid               0xfffffff0073e7be4
+48.. sigprocmask          0xfffffff0073edaa4
+49.. getlogin             0xfffffff0073e9b04
+50.. setlogin             0xfffffff0073e9bd8
+51.. acct                 0xfffffff0073b1acc
+52.. sigpending           0xfffffff0073eddf8
+53.. sigaltstack          0xfffffff0073ef608
+54.. ioctl                0xfffffff007409dcc
+55.. reboot               0xfffffff007402558
+56.. revoke               0xfffffff0071da710
+57.. symlink              0xfffffff0071d409c
+58.. readlink             0xfffffff0071d63e4
+59.. execve               0xfffffff0073d8388
+60.. umask                0xfffffff0071da6b8
+61.. chroot               0xfffffff0071d1d7c
+65.. msync                0xfffffff0073e16f4
+66.. vfork                0xfffffff0073de764
+73.. munmap               0xfffffff0073e17dc
+74.. mprotect             0xfffffff0073e1884
+75.. madvise              0xfffffff0073e19a0
+78.. mincore              0xfffffff0073e1a8c
+79.. getgroups            0xfffffff0073e7c9c
+80.. setgroups            0xfffffff0073e9a9c
+81.. getpgrp              0xfffffff0073e7954
+82.. setpgid              0xfffffff0073e7db0
+83.. setitimer            0xfffffff007401830
+85.. swapon               0xfffffff007462d64
+86.. getitimer            0xfffffff007401564
+89.. getdtablesize        0xfffffff0073b8930
+90.. dup2                 0xfffffff0073b9728
+92.. fcntl                0xfffffff0073ba5c4
+93.. select               0xfffffff00740a590
+95.. fsync                0xfffffff0071d7e34
+96.. setpriority          0xfffffff0073ea2bc
+97.. socket               0xfffffff007446e6c
+98.. connect              0xfffffff0074482ec
+100.. getpriority          0xfffffff0073e9cf8
+104.. bind                 0xfffffff007447364
+105.. setsockopt           0xfffffff00744b214
+106.. listen               0xfffffff0074476a0
+111.. sigsuspend           0xfffffff0073ede38
+116.. gettimeofday         0xfffffff007401064
+117.. getrusage            0xfffffff0073eb85c
+118.. getsockopt           0xfffffff00744b498
+120.. readv                0xfffffff007409154
+121.. writev               0xfffffff007409988
+122.. settimeofday         0xfffffff007401288
+123.. fchown               0xfffffff0071d72fc
+124.. fchmod               0xfffffff0071d6fdc
+126.. setreuid             0xfffffff0073e88a4
+127.. setregid             0xfffffff0073e918c
+128.. rename               0xfffffff0071d8b60
+131.. flock                0xfffffff0073c05e8
+132.. mkfifo               0xfffffff0071d38a8
+133.. sendto               0xfffffff007449060
+134.. shutdown             0xfffffff00744b1b4
+135.. socketpair           0xfffffff007448d90
+136.. mkdir                0xfffffff0071d9e04
+137.. rmdir                0xfffffff0071d9ec4
+138.. utimes               0xfffffff0071d74a4
+139.. futimes              0xfffffff0071d77f4
+140.. adjtime              0xfffffff007467468
+142.. gethostuuid          0xfffffff00740d1c4
+147.. setsid               0xfffffff0073e7d44
+151.. getpgid              0xfffffff0073e7964
+152.. setprivexec          0xfffffff0073e7914
+153.. pread                0xfffffff00740905c
+154.. pwrite               0xfffffff0074097a4
+157.. statfs               0xfffffff0071d080c
+158.. fstatfs              0xfffffff0071d0c18
+159.. unmount              0xfffffff0071cf2a8
+165.. quotactl             0xfffffff0071d050c
+167.. mount                0xfffffff0071cedbc
+169.. csops                0xfffffff0073e6044
+170.. csops_audittoken     0xfffffff0073e6cb4
+173.. waitid               0xfffffff0073dcd40
+177.. kdebug_typefilter    0xfffffff0073ae92c
+178.. kdebug_trace_string  0xfffffff0073aef74
+179.. kdebug_trace64       0xfffffff0073aeb20
+180.. kdebug_trace         0xfffffff0073aeab8
+181.. setgid               0xfffffff0073e8c60
+182.. setegid              0xfffffff0073e8f10
+183.. seteuid              0xfffffff0073e8624
+184.. sigreturn            0xfffffff0074a8a7c
+186.. thread_selfcounts    0xfffffff0071a6c7c
+187.. fdatasync            0xfffffff0071d7f5c
+188.. stat                 0xfffffff0071d60a8
+189.. fstat                0xfffffff0073be294
+190.. lstat                0xfffffff0071d6180
+191.. pathconf             0xfffffff0071d62cc
+192.. fpathconf            0xfffffff0073be2e4
+194.. getrlimit            0xfffffff0073eb5e8
+195.. setrlimit            0xfffffff0073eadd8
+196.. getdirentries        0xfffffff0071da1b0
+197.. mmap                 0xfffffff0073e0878
+199.. lseek                0xfffffff0071d5024
+200.. truncate             0xfffffff0071d78bc
+201.. ftruncate            0xfffffff0071d7a9c
+202.. __sysctl             0xfffffff0073f7764
+203.. mlock                0xfffffff0073e1d10
+204.. munlock              0xfffffff0073e1dd0
+205.. undelete             0xfffffff0071d44b4
+216.. mkcomplex            0xfffffff0071d276c
+220.. getattrlist          0xfffffff0071acb30
+221.. setattrlist          0xfffffff0071ad9b8
+222.. getdirentriesattr    0xfffffff0071da954
+223.. exchangedata         0xfffffff0071dad34
+225.. searchfs             0xfffffff0071db1f0
+226.. delete               0xfffffff0071d49e8
+227.. copyfile             0xfffffff0071d7f94
+228.. fgetattrlist         0xfffffff0071aa500
+229.. fsetattrlist         0xfffffff0071ae874
+230.. poll                 0xfffffff00740b744
+231.. watchevent           0xfffffff00740c5b4
+232.. waitevent            0xfffffff00740c8b8
+233.. modwatch             0xfffffff00740cbe0
+234.. getxattr             0xfffffff0071dd09c
+235.. fgetxattr            0xfffffff0071dd304
+236.. setxattr             0xfffffff0071dd4d8
+237.. fsetxattr            0xfffffff0071dd6b8
+238.. removexattr          0xfffffff0071dd890
+239.. fremovexattr         0xfffffff0071dd9fc
+240.. listxattr            0xfffffff0071ddb54
+241.. flistxattr           0xfffffff0071ddcd8
+242.. fsctl                0xfffffff0071db6d4
+243.. initgroups           0xfffffff0073e9780
+244.. posix_spawn          0xfffffff0073d4c94
+245.. ffsctl               0xfffffff0071dcf94
+250.. minherit             0xfffffff0073e1960
+266.. shm_open             0xfffffff007452cec
+267.. shm_unlink           0xfffffff007453828
+268.. sem_open             0xfffffff0074518c4
+269.. sem_close            0xfffffff00745261c
+270.. sem_unlink           0xfffffff0074523a8
+271.. sem_wait             0xfffffff0074526f8
+272.. sem_trywait          0xfffffff007452910
+273.. sem_post             0xfffffff007452a24
+274.. sem_getvalue         0xfffffff0073f7a58
+277.. open_extended        0xfffffff0071d25f8
+278.. umask_extended       0xfffffff0071da60c
+279.. stat_extended        0xfffffff0071d5b0c
+280.. lstat_extended       0xfffffff0071d614c
+281.. fstat_extended       0xfffffff0073bd940
+282.. chmod_extended       0xfffffff0071d6994
+283.. fchmod_extended      0xfffffff0071d6e20
+284.. access_extended      0xfffffff0071d5434
+285.. settid               0xfffffff0073e9500
+286.. gettid               0xfffffff0073e7ae4
+287.. setsgroups           0xfffffff0073e9ab0
+288.. getsgroups           0xfffffff0073e7d34
+289.. setwgroups           0xfffffff0073e9ab8
+290.. getwgroups           0xfffffff0073e7d3c
+291.. mkfifo_extended      0xfffffff0071d37c8
+292.. mkdir_extended       0xfffffff0071d9a34
+294.. shared_region_check_np 0xfffffff007464628
+296.. vm_pressure_monitor  0xfffffff007465fac
+297.. psynch_rw_longrdlock 0xfffffff007459aa8
+298.. psynch_rw_yieldwrlock 0xfffffff007459b70
+299.. psynch_rw_downgrade  0xfffffff007459ba8
+300.. psynch_rw_upgrade    0xfffffff007459ba0
+301.. psynch_mutexwait     0xfffffff007459910
+302.. psynch_mutexdrop     0xfffffff007459940
+303.. psynch_cvbroad       0xfffffff007459970
+304.. psynch_cvsignal      0xfffffff0074599b8
+305.. psynch_cvwait        0xfffffff007459a08
+306.. psynch_rw_rdlock     0xfffffff007459ad8
+307.. psynch_rw_wrlock     0xfffffff007459b40
+308.. psynch_rw_unlock     0xfffffff007459b08
+309.. psynch_rw_unlock2    0xfffffff007459b38
+310.. getsid               0xfffffff0073e79b8
+311.. settid_with_pid      0xfffffff0073e961c
+312.. psynch_cvclrprepost  0xfffffff007459a58
+313.. aio_fsync            0xfffffff0073b2eb8
+314.. aio_return           0xfffffff0073b34a0
+315.. aio_suspend          0xfffffff0073b38c4
+316.. aio_cancel           0xfffffff0073b24bc
+317.. aio_error            0xfffffff0073b2da4
+318.. aio_read             0xfffffff0073b3468
+319.. aio_write            0xfffffff0073b3bfc
+320.. lio_listio           0xfffffff0073b3c34
+322.. iopolicysys          0xfffffff0073ebd4c
+323.. process_policy       0xfffffff00745f89c
+324.. mlockall             0xfffffff0073e1e50
+325.. munlockall           0xfffffff0073e1e58
+327.. issetugid            0xfffffff0073e7f7c
+328.. __pthread_kill       0xfffffff0073ee42c
+329.. __pthread_sigmask    0xfffffff0073ef2b0
+330.. __sigwait            0xfffffff0073ef394
+331.. __disable_threadsignal 0xfffffff0073edf78
+332.. __pthread_markcancel 0xfffffff0073edf98
+333.. __pthread_canceled   0xfffffff0073ee00c
+334.. __semwait_signal     0xfffffff0073ee290
+336.. proc_info            0xfffffff007459c1c
+338.. stat64               0xfffffff0071d60e0
+339.. fstat64              0xfffffff0073be2c8
+340.. lstat64              0xfffffff0071d61b8
+341.. stat64_extended      0xfffffff0071d6118
+342.. lstat64_extended     0xfffffff0071d61f0
+343.. fstat64_extended     0xfffffff0073be2b0
+344.. getdirentries64      0xfffffff0071da5b0
+345.. statfs64             0xfffffff0071d0d34
+346.. fstatfs64            0xfffffff0071d0f84
+347.. getfsstat64          0xfffffff0071d1414
+348.. __pthread_chdir      0xfffffff0071d1d74
+349.. __pthread_fchdir     0xfffffff0071d1ab0
+350.. audit                0xfffffff00739feb8
+351.. auditon              0xfffffff00739fec0
+353.. getauid              0xfffffff00739fec8
+354.. setauid              0xfffffff00739fed0
+357.. getaudit_addr        0xfffffff00739fed8
+358.. setaudit_addr        0xfffffff00739fee0
+359.. auditctl             0xfffffff00739fee8
+360.. bsdthread_create     0xfffffff0074597e8
+361.. bsdthread_terminate  0xfffffff007459870
+362.. kqueue               0xfffffff0073c7f54
+363.. kevent               0xfffffff0073c7f6c
+364.. lchown               0xfffffff0071d7278
+366.. bsdthread_register   0xfffffff007459810
+367.. workq_open           0xfffffff0074598fc
+368.. workq_kernreturn     0xfffffff0074598d0
+369.. kevent64             0xfffffff0073caf9c
+370.. __old_semwait_signal 0xfffffff0073ee0b0
+371.. __old_semwait_signal_nocancel 0xfffffff0073ee0fc
+372.. thread_selfid        0xfffffff0074598bc
+373.. ledger               0xfffffff00740d338
+374.. kevent_qos           0xfffffff0073cb008
+375.. kevent_id            0xfffffff0073cb0d0
+380.. __mac_execve         0xfffffff0073d83c0
+381.. __mac_syscall        0xfffffff0075630fc
+382.. __mac_get_file       0xfffffff007562860
+383.. __mac_set_file       0xfffffff007562eb4
+384.. __mac_get_link       0xfffffff007562ae0
+385.. __mac_set_link       0xfffffff0075630f0
+386.. __mac_get_proc       0xfffffff007561f88
+387.. __mac_set_proc       0xfffffff007562100
+388.. __mac_get_fd         0xfffffff0075623ec
+389.. __mac_set_fd         0xfffffff007562aec
+390.. __mac_get_pid        0xfffffff007561df8
+394.. setlcid              0xfffffff00740b598
+395.. getlcid              0xfffffff00740b5cc
+396.. read_nocancel        0xfffffff007408d04
+397.. write_nocancel       0xfffffff0074093a8
+398.. open_nocancel        0xfffffff0071d2a28
+399.. close_nocancel       0xfffffff0073bd718
+400.. wait4_nocancel       0xfffffff0073dc294
+401.. recvmsg_nocancel     0xfffffff00744a708
+402.. sendmsg_nocancel     0xfffffff007449764
+403.. recvfrom_nocancel    0xfffffff00744a168
+404.. accept_nocancel      0xfffffff0074478d4
+405.. msync_nocancel       0xfffffff0073e1728
+406.. fcntl_nocancel       0xfffffff0073ba5f8
+407.. select_nocancel      0xfffffff00740a5c4
+408.. fsync_nocancel       0xfffffff0071d7f54
+409.. connect_nocancel     0xfffffff007448320
+410.. sigsuspend_nocancel  0xfffffff0073edf14
+411.. readv_nocancel       0xfffffff007409188
+412.. writev_nocancel      0xfffffff0074099bc
+413.. sendto_nocancel      0xfffffff007449094
+414.. pread_nocancel       0xfffffff007409090
+415.. pwrite_nocancel      0xfffffff0074097d8
+416.. waitid_nocancel      0xfffffff0073dc824
+417.. poll_nocancel        0xfffffff00740b778
+420.. sem_wait_nocancel    0xfffffff00745272c
+421.. aio_suspend_nocancel 0xfffffff0073b38f8
+422.. __sigwait_nocancel   0xfffffff0073ef3c8
+423.. __semwait_signal_nocancel 0xfffffff0073ee2d4
+424.. __mac_mount          0xfffffff0071cedfc
+425.. __mac_get_mount      0xfffffff007563438
+426.. __mac_getfsstat      0xfffffff0071d10bc
+427.. fsgetpath            0xfffffff0071dde50
+428.. audit_session_self   0xfffffff00739fea0
+429.. audit_session_join   0xfffffff00739fea8
+430.. fileport_makeport    0xfffffff0073c077c
+431.. fileport_makefd      0xfffffff0073c0b24
+432.. audit_session_port   0xfffffff00739feb0
+433.. pid_suspend          0xfffffff007463a38
+434.. pid_resume           0xfffffff007463c20
+435.. pid_hibernate        0xfffffff007463f24
+436.. pid_shutdown_sockets 0xfffffff00746447c
+438.. shared_region_map_and_slide_np 0xfffffff0074647ec
+439.. kas_info             0xfffffff007466038
+440.. memorystatus_control 0xfffffff0073fd13c
+441.. guarded_open_np      0xfffffff0073c12a0
+442.. guarded_close_np     0xfffffff0073c1688
+443.. guarded_kqueue_np    0xfffffff0073c1608
+444.. change_fdguard_np    0xfffffff0073c1810
+445.. proc_rlimit_control  0xfffffff007403284
+446.. proc_rlimit_control  0xfffffff0073ec5dc
+447.. proc_connectx        0xfffffff007448598
+448.. proc_disconnectx     0xfffffff007448c4c
+449.. proc_peeloff         0xfffffff007448c14
+450.. proc_socket_delegate 0xfffffff007447340
+451.. proc_telemetry       0xfffffff00740d938
+452.. proc_uuid_policy     0xfffffff007469c1c
+453.. memorystatus_get_level 0xfffffff0073f90a8
+454.. system_override      0xfffffff0074605bc
+455.. vfs_purge            0xfffffff0071ddf54
+456.. sfi_ctl              0xfffffff007400e00
+457.. sfi_pidctl           0xfffffff007400eb0
+458.. coalition            0xfffffff007412488
+459.. coalition_info       0xfffffff0074127fc
+460.. necp_match_policy    0xfffffff0072633cc
+461.. getattrlistbulk      0xfffffff0071acd7c
+462.. clonefileat          0xfffffff0071d839c
+463.. openat               0xfffffff0071d2e30
+464.. openat_nocancel      0xfffffff0071d2b54
+465.. renameat             0xfffffff0071d9a00
+466.. faccessat            0xfffffff0071d5ac0
+467.. fchmodat             0xfffffff0071d6db8
+468.. fchownat             0xfffffff0071d72ac
+469.. fstatat              0xfffffff0071d6224
+470.. fstatat64            0xfffffff0071d6278
+471.. linkat               0xfffffff0071d404c
+472.. unlinkat             0xfffffff0071d4a50
+473.. readlinkat           0xfffffff0071d668c
+474.. symlinkat            0xfffffff0071d4488
+475.. mkdirat              0xfffffff0071d9e64
+476.. getattrlistat        0xfffffff0071acd04
+477.. proc_trace_log       0xfffffff0073e7628
+478.. bsdthread_ctl        0xfffffff007459898
+479.. openbyid_np          0xfffffff0071d2e90
+480.. recvmsg_x            0xfffffff00744a970
+481.. sendmsg_x            0xfffffff007449984
+482.. thread_selfusage     0xfffffff0073ec8bc
+484.. guarded_open_dprotected_np 0xfffffff0073c1464
+485.. guarded_write_np     0xfffffff0073c1db4
+486.. guarded_pwrite_np    0xfffffff0073c1eb4
+487.. guarded_writev_np    0xfffffff0073c1ffc
+488.. rename_ext           0xfffffff0071d99cc
+489.. mremap_encrypted     0xfffffff0073e1e60
+490.. netagent_trigger     0xfffffff007267968
+491.. stack_snapshot_with_config 0xfffffff0074063d4
+492.. microstackshot       0xfffffff0074065e4
+494.. persona              0xfffffff007412db8
+499.. work_interval_ctl    0xfffffff007414144
+500.. getentropy           0xfffffff0071a575c
+501.. necp_open            0xfffffff00725d5b0
+502.. necp_client_action   0xfffffff00725e748
+503.. __nexus_open         0xfffffff007485014
+504.. __nexus_register     0xfffffff0074852ec
+505.. __nexus_deregister   0xfffffff007485534
+506.. __nexus_create       0xfffffff007485694
+507.. __nexus_destroy      0xfffffff00748586c
+508.. __nexus_get_opt      0xfffffff0074859c8
+509.. __nexus_set_opt      0xfffffff007485af0
+510.. __channel_open       0xfffffff0074719c8
+511.. __channel_get_info   0xfffffff007471ea4
+512.. __channel_sync       0xfffffff007472040
+513.. __channel_get_opt    0xfffffff0074724e4
+514.. __channel_set_opt    0xfffffff00747260c
+515.. ulock_wait           0xfffffff007413734
+516.. ulock_wake           0xfffffff007413f6c
+517.. fclonefileat         0xfffffff0071d8a80
+518.. fs_snapshot          0xfffffff0071de038
+520.. terminate_with_payload 0xfffffff0073efdac
+521.. abort_with_payload   0xfffffff0073d9410
+522.. necp_session_open    0xfffffff0072465e8
+523.. necp_session_actrion 0xfffffff00724c538
+524.. setattrlistat        0xfffffff0071ae720
+525.. net_qos_guideline    0xfffffff0072d85c4
+526.. fmount               0xfffffff0071cf0a0
+527.. ntp_adjtime          0xfffffff007466ba4
+528.. ntp_gettime          0xfffffff007466a30
+529.. os_fault_with_payload 0xfffffff0073d9468
+
+KEXT:
+0xfffffff0060d4000: BSD Kernel Pseudoextension (com.apple.kpi.bsd)
+0xfffffff0060d4080: Libkern Pseudoextension (com.apple.kpi.libkern)
+0xfffffff0060d4100: Mach Kernel Pseudoextension (com.apple.kpi.mach)
+0xfffffff0060d4180: I/O Kit Pseudoextension (com.apple.kpi.iokit)
+0xfffffff0060d4200: Private Pseudoextension (com.apple.kpi.private)
+0xfffffff0060d4280: Unsupported Pseudoextension (com.apple.kpi.unsupported)
+0xfffffff0060d4300: IOSlowAdaptiveClockingFamily (com.apple.iokit.IOSlowAdaptiveClockingFamily)
+0xfffffff0060d4880: I/O Kit Storage Family (com.apple.iokit.IOStorageFamily)
+0xfffffff0060d5880: IOReportFamily (com.apple.iokit.IOReportFamily)
+0xfffffff0060d6080: AppleARMPlatform (com.apple.driver.AppleARMPlatform)
+0xfffffff0060df440: corecrypto (com.apple.kec.corecrypto)
+0xfffffff0060f29c0: IOSlaveProcessor (com.apple.driver.IOSlaveProcessor)
+0xfffffff0060f2f40: AppleA7IOP (com.apple.driver.AppleA7IOP)
+0xfffffff0060f6300: RTBuddy (com.apple.driver.RTBuddy)
+0xfffffff006101a80: Libm.kext (com.apple.kec.Libm)
+0xfffffff006107f40: MAC Framework Pseudoextension (com.apple.kpi.dsep)
+0xfffffff006107fc0: AppleMobileFileIntegrity (com.apple.driver.AppleMobileFileIntegrity)
+0xfffffff006128700: IOSurface (com.apple.iokit.IOSurface)
+0xfffffff00612b400: IODARTFamily (com.apple.driver.IODARTFamily)
+0xfffffff00612c940: Apple M2 Scaler and Color Space Converter Driver (com.apple.driver.AppleM2ScalerCSCDriver)
+0xfffffff00614a440: IOAcceleratorFamily2 (com.apple.iokit.IOAcceleratorFamily2)
+0xfffffff0061514c0: AGXG3 Graphics Kernel Extension (com.apple.AGXG3)
+0xfffffff00615ddc0: AppleFSCompressionTypeZlib (com.apple.AppleFSCompression.AppleFSCompressionTypeZlib)
+0xfffffff00615eb80: AGXFirmwareKextG3 (com.apple.AGXFirmwareKextG3)
+0xfffffff006179dc0: AppleDiskImageDriver (com.apple.driver.DiskImages)
+0xfffffff00617ab80: AppleDiskImagesKernelBacked (com.apple.driver.DiskImages.KernelBacked)
+0xfffffff00617b340: IOSCSIArchitectureModelFamily (com.apple.iokit.IOSCSIArchitectureModelFamily)
+0xfffffff00617bc80: AppleDiskImagesUDIFDiskImage (com.apple.driver.DiskImages.UDIFDiskImage)
+0xfffffff00617c6c0: IOStreamAudioFamily (com.apple.iokit.IOStreamAudioFamily)
+0xfffffff00617cd00: IOAudio2Family (com.apple.iokit.IOAudio2Family)
+0xfffffff00617d680: IOCECFamily (com.apple.iokit.IOCECFamily)
+0xfffffff00617e000: IOAVFamily (com.apple.iokit.IOAVFamily)
+0xfffffff00618c1c0: IODisplayPortFamily (com.apple.iokit.IODisplayPortFamily)
+0xfffffff00618ed00: AppleSamsungDPTX (com.apple.driver.AppleSamsungDPTX)
+0xfffffff006191c40: IOCryptoAcceleratorFamily (com.apple.iokit.IOCryptoAcceleratorFamily)
+0xfffffff006192b00: AppleS5L8960XSmartIO (com.apple.driver.AppleS5L8960XSmartIO)
+0xfffffff00619d480: I/O Kit Driver for USB Devices (com.apple.driver.AppleUSBHostMergeProperties)
+0xfffffff00619da40: IOUSBDeviceFamily (com.apple.iokit.IOUSBDeviceFamily)
+0xfffffff00619fd00: AppleUSBDeviceMux (com.apple.driver.AppleUSBDeviceMux)
+0xfffffff0061a1540: PPP (com.apple.nke.ppp)
+0xfffffff0061a3100: L2TP (com.apple.nke.l2tp)
+0xfffffff0061a4080: AppleS5L8960XDART (com.apple.driver.AppleS5L8960XDART)
+0xfffffff0061a5880: ApplePMGR (com.apple.driver.ApplePMGR)
+0xfffffff0061b1e00: AppleS5L8960XCLPC (com.apple.driver.AppleS5L8960XCLPC)
+0xfffffff0061b65c0: IOKit Serial Port Family (com.apple.iokit.IOSerialFamily)
+0xfffffff0061b6f00: IOHIDFamily (com.apple.iokit.IOHIDFamily)
+0xfffffff0061b8700: I/O Kit Networking Family (com.apple.iokit.IONetworkingFamily)
+0xfffffff0061b9d80: IOSkywalkFamily (com.apple.iokit.IOSkywalkFamily)
+0xfffffff0061bb180: AppleOnboardSerial (com.apple.driver.AppleOnboardSerial)
+0xfffffff0061bd340: IOAccessoryManager (com.apple.iokit.IOAccessoryManager)
+0xfffffff0061c12c0: AppleARMIISAudio (com.apple.iokit.AppleARMIISAudio)
+0xfffffff0061c1f80: AppleEmbeddedAudio (com.apple.driver.AppleEmbeddedAudio)
+0xfffffff0061c72c0: AppleCSEmbeddedAudio (com.apple.driver.AppleCSEmbeddedAudio)
+0xfffffff0061c7c80: IOMikeyBusFamily (com.apple.iokit.IOMikeyBusFamily)
+0xfffffff0061c91c0: AppleTriStar (com.apple.driver.AppleTriStar)
+0xfffffff0061cb400: AppleEmbeddedMikeyBus (com.apple.driver.AppleEmbeddedMikeyBus)
+0xfffffff0061cd440: AppleMikeyBusAudio (com.apple.driver.AppleMikeyBusAudio)
+0xfffffff0061cf500: AppleSamsungSPI (com.apple.driver.AppleSamsungSPI)
+0xfffffff0061d0480: AppleUSBCommon (com.apple.driver.usb.AppleUSBCommon)
+0xfffffff0061d0f00: IOKit USB host family (com.apple.driver.AppleUSBHostMergeProperties)
+0xfffffff0061e12c0: AppleUSBEthernetHost (com.apple.driver.AppleUSBEthernetHost)
+0xfffffff0061e2480: AppleUSBNetworking (com.apple.driver.usb.networking)
+0xfffffff0061e2a00: I/O Kit Driver for USB Composite Devices (com.apple.driver.usb.AppleUSBHostCompositeDevice)
+0xfffffff0061e35c0: AppleUSBEthernet (com.apple.driver.usb.ethernet.asix)
+0xfffffff0061e4c00: AppleH6CameraInterface (com.apple.driver.AppleH6CameraInterface)
+0xfffffff0061eb200: FairPlayIOKit (com.apple.driver.FairPlayIOKit)
+0xfffffff006205140: IOTextEncryptionFamily (com.apple.IOTextEncryptionFamily)
+0xfffffff006205a80: pthread (com.apple.kec.pthread)
+0xfffffff006207440: IOAcceleratorFamily (com.apple.iokit.IOAcceleratorFamily)
+0xfffffff00620b800: AppleNANDConfigAccess (com.apple.driver.AppleNANDConfigAccess)
+0xfffffff00620bd40: AppleDiagnosticDataAccessReadOnly (com.apple.driver.AppleDiagnosticDataAccessReadOnly)
+0xfffffff00620c4c0: AppleOscar (com.apple.driver.AppleOscar)
+0xfffffff00620f200: corecapture (com.apple.driver.corecapture)
+0xfffffff0062125c0: IO80211Family (com.apple.iokit.IO80211Family)
+0xfffffff006235840: Regular Expression Matching Engine (com.apple.kext.AppleMatch)
+0xfffffff006235bc0: Seatbelt sandbox policy (com.apple.security.sandbox)
+0xfffffff0062a5400: AppleCycloneErrorHandler (com.apple.driver.AppleCycloneErrorHandler)
+0xfffffff0062a6300: AppleDiskImagesRAMBackingStore (com.apple.driver.DiskImages.RAMBackingStore)
+0xfffffff0062a68c0: AppleEffaceableStorage (com.apple.driver.AppleEffaceableStorage)
+0xfffffff0062a8380: AppleSEPManager (com.apple.driver.AppleSEPManager)
+0xfffffff0062b8180: AppleSEPKeyStore (com.apple.driver.AppleSEPKeyStore)
+0xfffffff0062ba2c0: AppleBluetooth (com.apple.driver.AppleBluetooth)
+0xfffffff0062baa00: IOSCSIBlockCommandsDevice (com.apple.iokit.IOSCSIBlockCommandsDevice)
+0xfffffff0062bb300: AppleS5L8940XI2C (com.apple.driver.AppleS5L8940XI2C)
+0xfffffff0062bbd80: LSKDIOKitMSE (com.apple.driver.LSKDIOKitMSE)
+0xfffffff0062d0580: AppleStorageDrivers (com.apple.driver.AppleStorageDrivers)
+0xfffffff0062d0580: HFS (com.apple.filesystems.hfs.kext)
+0xfffffff0062e2300: LSKDIOKit (com.apple.driver.LSKDIOKit)
+0xfffffff0062f77c0: IOAudioCodecs (com.apple.driver.IOAudioCodecs)
+0xfffffff0062fa500: AppleEmbeddedUSB (com.apple.driver.AppleEmbeddedUSB)
+0xfffffff0062fbb80: AppleSynopsysOTGDevice (com.apple.driver.AppleSynopsysOTGDevice)
+0xfffffff0062ff340: USBStorageDeviceSpecifics (com.apple.driver.USBStorageDeviceSpecifics)
+0xfffffff0062ff340: AppleUSBCDC (com.apple.driver.usb.cdc)
+0xfffffff0062ffa00: AppleUSBNCM (com.apple.driver.usb.cdc.ncm)
+0xfffffff0063004c0: AppleEmbeddedLightSensor (com.apple.driver.AppleEmbeddedLightSensor)
+0xfffffff006303e40: AppleSamsungSerial (com.apple.driver.AppleSamsungSerial)
+0xfffffff006304540: AppleUSBMike (com.apple.driver.AppleUSBMike)
+0xfffffff006305e40: AUC (com.apple.AUC)
+0xfffffff006307480: AppleMAX98711Amp (com.apple.driver.AppleMAX98711Amp)
+0xfffffff006307f00: AppleSamsungMIPIDSI (com.apple.driver.AppleSamsungMIPIDSI)
+0xfffffff006308ec0: AppleUSBECM (com.apple.driver.usb.cdc.ecm)
+0xfffffff006309640: I/O Kit HID Event Driver Safe Boot (com.apple.iokit.IOHIDEventDriverSafeBoot)
+0xfffffff006309640: AppleBSDKextStarter (com.apple.driver.AppleBSDKextStarter)
+0xfffffff006309c00: ProvInfoIOKit (com.apple.driver.ProvInfoIOKit)
+0xfffffff00630de40: AppleHIDKeyboard (com.apple.driver.AppleHIDKeyboard)
+0xfffffff00630ef40: IOUSBMassStorageDriver (com.apple.iokit.IOUSBMassStorageDriver)
+0xfffffff006310480: AppleUSBCardReader (com.apple.driver.AppleUSBCardReader)
+0xfffffff0063112c0: AppleCS42L81Audio (com.apple.driver.AppleCS42L81Audio)
+0xfffffff006311fc0: IOTimeSyncFamily (com.apple.iokit.IOTimeSyncFamily)
+0xfffffff006313a80: AppleS5L8960X (com.apple.driver.AppleS5L8960X)
+0xfffffff006316f80: I/O Kit Driver for USB EHCI Controllers (com.apple.driver.usb.AppleUSBEHCI)
+0xfffffff006320040: AppleUSBHSIC (com.apple.driver.AppleUSBHSIC)
+0xfffffff0063220c0: AppleBasebandN51 (com.apple.driver.AppleBasebandN51)
+0xfffffff006323340: IOUserEthernet (com.apple.iokit.IOUserEthernet)
+0xfffffff006323c80: AppleIDAMInterface (com.apple.driver.AppleIDAMInterface)
+0xfffffff006324780: IOMobileGraphicsFamily (com.apple.iokit.IOMobileGraphicsFamily)
+0xfffffff006329d80: AppleH6ADBE0 (com.apple.driver.AppleH6ADBE0)
+0xfffffff006339040: Broadcom 802.11 Driver (com.apple.driver.AppleBCMWLANCoreLegacy)
+0xfffffff006365080: AppleBCMWLANBusInterfaceHSICShim (com.apple.driver.AppleBCMWLANBusInterfaceHSICShim)
+0xfffffff006365ac0: Broadcom WLAN HSIC Bus Driver (com.apple.driver.AppleBCMWLANBusInterfaceHSIC)
+0xfffffff00636b0c0: AppleUSBDeviceAudioController (com.apple.driver.AppleUSBDeviceAudioController)
+0xfffffff00636b880: I/O Kit Driver for USB HID Devices (com.apple.driver.usb.IOUSBHostHIDDevice)
+0xfffffff00636d440: I/O Kit Driver for USB HID Devices (com.apple.driver.usb.IOUSBHostHIDDeviceSafeBoot)
+0xfffffff00636d440: AppleEmbeddedTempSensor (com.apple.driver.AppleEmbeddedTempSensor)
+0xfffffff006370480: AppleARMPMU (com.apple.driver.AppleARMPMU)
+0xfffffff006372e80: AppleDialogPMU (com.apple.driver.AppleDialogPMU)
+0xfffffff006373740: AppleD2089PMU (com.apple.driver.AppleD2089PMU)
+0xfffffff006375340: AppleM68Buttons (com.apple.driver.AppleM68Buttons)
+0xfffffff006376680: AppleS5L8960XWatchDogTimer (com.apple.driver.AppleS5L8960XWatchDogTimer)
+0xfffffff006376fc0: AppleUSBEthernetDevice (com.apple.driver.AppleUSBEthernetDevice)
+0xfffffff0063781c0: EncryptedBlockStorage (com.apple.iokit.EncryptedBlockStorage)
+0xfffffff006378980: LightweightVolumeManager (com.apple.driver.LightweightVolumeManager)
+0xfffffff00637b440: AppleEffaceableBlockDevice (com.apple.driver.AppleEffaceableBlockDevice)
+0xfffffff00637bc00: AppleSEPCredentialManager (com.apple.driver.AppleSEPCredentialManager)
+0xfffffff00637cdc0: I/O Kit HID Event Driver (com.apple.iokit.IOHIDEventDriver)
+0xfffffff00637cdc0: apfs (com.apple.filesystems.apfs)
+0xfffffff006398780: I/O Kit Driver for USB Hubs (com.apple.driver.AppleUSBHostMergeProperties)
+0xfffffff00639da00: AppleMobileApNonce (com.apple.driver.AppleMobileApNonce)
+0xfffffff00639e840: AppleS5L8960XSOCTuner (com.apple.driver.AppleS5L8960XSOCTuner)
+0xfffffff00639f3c0: AppleDiskImagesFileBackingStore (com.apple.driver.DiskImages.FileBackingStore)
+0xfffffff00639fa80: AppleAE2Audio (com.apple.driver.AppleAE2Audio)
+0xfffffff0063a0d40: AppleUSBAudio (com.apple.driver.AppleUSBAudio)
+0xfffffff0063a3180: AppleIPAppender (com.apple.driver.AppleIPAppender)
+0xfffffff0063a3cc0: AppleUSBHSICCellular (com.apple.driver.usb.hsic.cellular)
+0xfffffff0063a6980: Broadcom HSIC Wlan Interface Configurator (com.apple.driver.AppleBCMWLANHSICDevice)
+0xfffffff0063a6f80: AppleHDQGasGaugeControl (com.apple.driver.AppleHDQGasGaugeControl)
+0xfffffff0063a9c40: AppleAuthCP (com.apple.driver.AppleAuthCP)
+0xfffffff0063aa8c0: AppleVXD393 (com.apple.driver.AppleVXD393)
+0xfffffff0063c3c40: AppleBSDKextStarterVPN (com.apple.driver.AppleBSDKextStarterVPN)
+0xfffffff0063c3c40: I/O Kit Driver for USB User Clients (com.apple.iokit.usb.AppleUSBHostUserClient)
+0xfffffff0063c3c40: AppleS5L8920XPWM (com.apple.driver.AppleS5L8920XPWM)
+0xfffffff0063c41c0: AppleDiskImagesReadWriteDiskImage (com.apple.driver.DiskImages.ReadWriteDiskImage)
+0xfffffff0063c4700: ASPSupportNodes (com.apple.driver.ASPSupportNodes)
+0xfffffff0063cc740: AppleInterruptController (com.apple.driver.AppleInterruptController)
+0xfffffff0063cd5c0: AppleTemperatureSensor (com.apple.driver.AppleTemperatureSensor)
+0xfffffff0063ce300: AppleMultitouchSPI (com.apple.driver.AppleMultitouchSPI)
+0xfffffff0063d2900: AppleEmbeddedProx (com.apple.driver.AppleEmbeddedProx)
+0xfffffff0063d3bc0: USB Packet Filter (com.apple.driver.usb.AppleUSBHostPacketFilter)
+0xfffffff0063d4480: I/O Kit Driver for USB OHCI Controllers (com.apple.driver.usb.AppleUSBOHCI)
+0xfffffff0063d7280: AppleEmbeddedUSBHost (com.apple.driver.AppleEmbeddedUSBHost)
+0xfffffff0063d8080: AppleUSBHostS5L8960X (com.apple.driver.usb.AppleUSBHostS5L8960X)
+0xfffffff0063d9a80: AppleS5L8940XDWI (com.apple.driver.AppleS5L8940XDWI)
+0xfffffff0063da200: AppleS5L8960XGPIOIC (com.apple.driver.AppleS5L8960XGPIOIC)
+0xfffffff0063db040: PPTP (com.apple.nke.pptp)
+0xfffffff0063dbc80: AppleJPEGDriver (com.apple.driver.AppleJPEGDriver)
+0xfffffff0063e15c0: AppleMultitouchSPIC1F15 (com.apple.driver.AppleMultitouchSPIC1F15)
+0xfffffff0063e15c0: IOgPTPPlugin (com.apple.plugin.IOgPTPPlugin)
+0xfffffff0063e9140: AppleUSBDeviceNCM (com.apple.driver.AppleUSBDeviceNCM)
+0xfffffff0063e9d00: IOStreamFamily (com.apple.iokit.IOStreamFamily)
+0xfffffff0063ea4c0: AppleDPDisplay (com.apple.driver.AppleDPDisplay)
+0xfffffff0063ec580: AppleSamsungPKE (com.apple.driver.AppleSamsungPKE)
+0xfffffff0063ecb40: AppleS5L8960XPMGR (com.apple.driver.AppleS5L8960XPMGR)
+0xfffffff0063ed940: AppleHIDKeyboardEmbedded (com.apple.driver.AppleHIDKeyboardEmbedded)
+0xfffffff0063ed940: H264 Video Encoder (com.apple.driver.AppleVXE380)
+0xfffffff006402400: AppleS5L8960XUSB (com.apple.driver.AppleS5L8960XUSB)
