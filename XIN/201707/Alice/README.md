@@ -1,4 +1,15 @@
-[TOC]
+* [Alice的July历险记](#alice的july历险记)
+ * [1 iOS 11镜像下载及kernelcache抽取](#1-ios-11镜像下载及kernelcache抽取)
+    * [1.1 巧妇难为无米之炊，不下载镜像怎么抽镜像呢？](#11-巧妇难为无米之炊不下载镜像怎么抽镜像呢)
+    * [1.2 下载下来后使用实用归档工具.app解压，乍一看里面内容还是挺多的。](#12-下载下来后使用实用归档工具app解压乍一看里面内容还是挺多的)
+    * [1.3 下载joker及初探](#13-下载joker及初探)
+    * [1.4 抽取iOS 11的kernelcache](#14-抽取ios-11的kernelcache)
+    * [1.5 任务完成？too naive!新的旅程：ipsw孤岛大冒险！](#15-任务完成too-naive新的旅程ipsw孤岛大冒险)
+ * [2 afox成为偶像的必由之路——深入ipsw文档！](#2-afox成为偶像的必由之路深入ipsw文档)
+    * [2.1 揭秘im4p](#21-揭秘im4p)
+       * [2.1.1 初探](#211-初探)
+       * [2.1.2 结构信息和内容解密](#212-结构信息和内容解密)
+
 ## Alice的July历险记
 
 作为小白的我，拿到这样的title的时候，内心几乎是崩溃的，leader你要你要哪样，本姑娘还在新手村！
@@ -81,7 +92,9 @@ Kern invalid should be fffffff00711fc30. Ignoring those
  16 _kernelrpc_mach_port_allocate_trap       fffffff0070ef95c -
 ```
 赶紧跟[蒸米大神](http://weibo.com/ttarticle/p/show?id=2309404115716285534270)的比比看，是不是一样的！
+
 ![emmm](pic/4.jpg)
+
 用肉眼比对了一下，好像是一样的呢！曾开心！
 ![brillient!](pic/5.png)
 
