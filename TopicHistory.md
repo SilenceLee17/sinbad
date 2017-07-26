@@ -1,4 +1,4 @@
-# TEAM SCORE
+# TEAM SCORE OF JUNE
 
 |TEAM|POINT|DETAIL|
 |:-:|:-:|:--:|
