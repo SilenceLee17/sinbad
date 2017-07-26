@@ -3,19 +3,28 @@
 |BLACK|POINT|WHITE|POINT|KANXUE|POINT|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |黑苹果群|积分|白苹果群|积分|雪花群|积分|
-|afox|300| HSHtime | 150|物以类聚|300|
-|rainyx|200|AloneMonkey|135|XGalaxy|200|
-|布兜儿|135|||AliceForever|200|
-|B1nGzl|100|  | |紫枫闲人|200|
-|||||黑煤炭|200|
-|||||madmark |180|
+|afox|300|小学生|175|物以类聚|300|
+|rainyx|200|凌迟|175|XGalaxy|200|
+|布兜儿|135|HSHtime|150|aliceforever|200|
+|B1nGzl|100|黄大先生|150|cosmosdzh|200|
+|||AloneMonkey|135|紫枫闲人|200|
+|||七步阶|100|黑煤炭|200|
+|||||madmark|180|
 |||||chen|180|
+|||||asel|150|
+|||||lostkid-hz|150|
 |||||星期五|150|
 |||||liuswear|135|
 |||||kiba|135|
 |||||今天星期六吧|100|
 |||||myhloli|100|
 |||||iOSSecret|100|
+|||||爱心觉罗|100|
+|||||龙幽|100|
+|||||CE|100|
+|||||木木山|100|
+|||||spiderzz|100|
+|||||dunwin|100|
 ------
 
 # TOPICS OF JULY
