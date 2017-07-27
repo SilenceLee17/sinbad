@@ -112,7 +112,7 @@ Zephyr:JTool morpheus$ joker -S ~/Documents/iOS/9b/kernel.9b.4S.decrypted |
 
 最有效的符号化的参数是"-m"，它会符号化Mach陷阱和UN*X系统调用。joker会自动压缩enosys和旧的系统调用，但仍然会提供对应的地址。
 
-** 译者注：[enosys](https://www.gnu.org/software/libc/manual/html_node/Error-Codes.html) 为UNIX的一种系统错误名称 **
+**译者注：** [enosys](https://www.gnu.org/software/libc/manual/html_node/Error-Codes.html) 为UNIX的一种系统错误名称 
 
 ```
 Zephyr:JTool morpheus$ joker -a ~/Documents/iOS/9b/kernel.9b.4S.decrypted  | more
