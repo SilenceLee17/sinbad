@@ -65,7 +65,7 @@ NOTE: Found an actual trap at #50, where kern_invalid was expected. Apple must h
 NOTE: Found an actual trap at #95, where kern_invalid was expected. Apple must have added a Mach trap!
 ```
 
-** RESULT:[Mach](../11.0/Mach)**
+**RESULT:[Mach](../11.0/Mach)**
 
 ### Kexts
 
@@ -78,7 +78,7 @@ Got kernel at 436
 Got 194 kexts
 ```
 
-** RESULT:[kexts](../11.0/kexts)**
+**RESULT:[kexts](../11.0/kexts)**
 
 ###Syscalls
 
@@ -90,4 +90,4 @@ btw, KPP is at 13928957 (0xd489fd)..And I saved it for you in /tmp/kpp
 Got kernel at 436
 ```
 
-** RESULT:[syscalls](../11.0/syscalls)**
+**RESULT:[syscalls](../11.0/syscalls)**
