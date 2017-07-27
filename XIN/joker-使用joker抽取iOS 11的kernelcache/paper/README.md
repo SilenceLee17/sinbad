@@ -80,7 +80,7 @@ Got 194 kexts
 
 **RESULT:[kexts](../11.0/kexts)**
 
-###Syscalls
+### Syscalls
 
 ```
 ➜  11.0 ../joker/joker.universal -s kernelcache.release.n66 > syscalls
