@@ -94,7 +94,7 @@ com.apple.driver.AppleMobileFileIntegrity: Mach-O kext bundle arm
 
 使用-S选项可以获取到完整的__sysctl_set的dump。这个很有用，因为sysctl描述符包含很多有用的内核地址、变量、处理程序：
 
-**译者注：导出sysctl应使用-S选项，而原文使用的是-s，译文已更正**
+**译者注：** 导出sysctl应使用-S选项，而原文使用的是-s，译文已更正
 
 ```
 # especially designed to be grep(1) friendly - you can get your sysctl + 6 lines
@@ -215,7 +215,7 @@ Mach使用消息、MIG来序列化消息。 Mach Interface Generator生成解析
 
 这对iOS很有用，但是所有的符号都是被去掉了。在OS X xnu中可以更容易的看到被调用的真实函数，因为在OS X xnu函数都是被导出的，
 
-** 译者注：样本代码 = [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code) **
+**译者注：** 样本代码 = [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code) 
 
 ```
 host_priv_subsystem is  @0xffffff8000a02a90!
