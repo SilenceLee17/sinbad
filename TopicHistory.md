@@ -1,4 +1,4 @@
-# TEAM SCORE
+# TEAM SCORE OF JUNE
 
 |TEAM|POINT|DETAIL|
 |:-:|:-:|:--:|
@@ -8,7 +8,7 @@
 |甲|700|B1nGzl:100 星期五:150 HSHtime:150 今天星期六吧:100 myhloli:100 iOSSecret:100|
 |己|600|rainyx:200 紫枫闲人:200 黑煤炭:200|
 |丑|500|黄大先生:150 凌迟:175 小学生:175|
-|辰|400||
+|辰|400|dunwin:100 spiderzz:100 木木山:100 CE:100|
 
 
 # TOPICS OF JUNE
