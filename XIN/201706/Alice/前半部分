@@ -1,0 +1,117 @@
+# 定位样本文件
+从群文件里下载最新的样本文件。
+下载链接：https://www.iphonecake.com/app_1025252985_.html
+
+# 使用openssl生成SHA256摘要可见，与原作者SHA256相同。
+``
+$ openssl dgst -sha256 com.mailtime.MailTimePro-clutch2.ipa
+SHA256(com.mailtime.MailTimePro-clutch2.ipa)= 332cf0a45170d6787dcbefb086f5a5f0f6e920d485e377fe37e900a01c128c8e
+``
+# 开始分析
+
+*将ipa解压到com.mailtime.MailTimePro-clutch2文件夹*
+
+`$ ditto -xk com.mailtime.MailTimePro-clutch2.ipa com.mailtime.MailTimePro-clutch2`
+
+*进入com.mailtime.MailTimePro-clutch2文件夹里的app内部*
+
+`$ cd "com.mailtime.MailTimePro-clutch2/Payload/MailTime Pro.app/"`
+
+*使用find来寻找Mach-O可执行文件*
+
+`$ find . -type f -exec file {} \; | grep "Mach-O"`
+
+*参数解释：”.”是本文件夹，“-type f”是指搜索类型是文件，”-exec ;”是指执行中间的命令，file {}是指将搜到的内容代入花括号内，\是转义符，\;转义之后就是;。最终的grep "Mach-O"就是在file命令的结果里搜索带有"Mach-O"字符的内容。*
+
+`
+（……）
+
+./jailbreak: Mach-O universal binary with 2 architectures: [arm_v7: Mach-O dynamically linked shared library arm_v7] [arm64]
+
+./jailbreak (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+
+./jailbreak (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+
+./MailTime Pro: Mach-O universal binary with 2 architectures: [arm_v7: Mach-O executable arm_v7] [arm64]
+
+./MailTime Pro (for architecture armv7):	Mach-O executable arm_v7
+
+./MailTime Pro (for architecture arm64):	Mach-O 64-bit executable arm64
+
+`
+
+# 最刻意的当然是两个最主要的可执行文件，我们看下它们的签名。
+
+*解释一下这个2>&1：是指将标准信息输出路径指定为错误信息输出路径（也就是都输出在一起）*
+`
+$ codesign -dvv "MailTime Pro" 2>&1 | grep Authority
+
+Authority=iPhone Developer: nguyen tat hung (T99T9WYY54)
+
+Authority=Apple Worldwide Developer Relations Certification Authority
+
+Authority=Apple Root CA
+`
+
+$ codesign -dvv jailbreak 2>&1 | grep Authority
+Authority=iPhone Developer: nguyen tat hung (T99T9WYY54)
+Authority=Apple Worldwide Developer Relations Certification Authority
+Authority=Apple Root CA
+
+可见他们的“作者”都是nguyen tat hung，然而mailtime这款App的作者显然不是nguyen tat hung（https://itunes.apple.com/developer/id1080071292），从itunes可知这款App的作者就是MailTime（https://itunes.apple.com/app/id1025252985）。
+
+# 然后就是发现MailTime Pro的二进制文件里，包含着jailbreak这个动态链接库。
+otool -arch arm64 -L "MailTime Pro" | grep jailbreak
+（……）
+@executable_path/jailbreak (compatibility version 0.0.0, current version 0.0.0)
+
+# 大部分动态库里自身包含着安装路径和导入表
+$ otool -arch arm64 -L jailbreak
+jailbreak:
+    /usr/local/lib/libguiinject.dylib (compatibility version 1.0.0, current version 1.0.0)
+(...)
+
+# 而且由于assert()宏的存在，相关项目工程的信息也都可以获取到。
+$ strings -arch arm64 jailbreak | grep -i guiinject
+/Users/gtt/Documents/workspaceIOS/guiinject/guiinject/MBProgressHUD.m
+/Users/gtt/Documents/workspaceIOS/guiinject/guiinject/SSZipArchive.m
+guiinject
+
+# 文章里说从符号表里检测到了很多广告Adware和Library，我们来看看是不是有。
+Advertisement SDKs
+Carrot
+Facebook Audience Network
+Google AdMob
+StartApp
+Cocoa Pods
+FileMD5Hash
+MBProgressHUD
+SSZipArchive
+
+# 这里有篇文章讲otool的小弟nm的用法：http://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/nm.html， 然后我们用grep来搜索下关键词：nm -a jailbreak | grep -iE "Carrot|Google|audience|startapp"，结果还是比较喜人的。
+
+`$ nm -a jailbreak | grep -iE "Carrot|Google|audience|startapp"`
+
+## 命令讲解一下，nm –a是指输出全部符号，包括调试符号，grep的-i是指不区分大小写，-E是指包含多个关键词。
+`
+0005d660 t +[FBAdUtility initializeAudienceNetwork]
+002139b4 t +[STAStartAppAd initWithAppId:developerId:]
+001f8c96 t +[STAStartAppAdBasic showAd]
+0021895c t +[STAStartAppSDK sharedInstance]
+000208d0 t -[CarrotAppDelegateHooks application:didFailToRegisterForRemoteNotificationsWithError:]
+0002052c t -[CarrotAppDelegateHooks application:didRegisterForRemoteNotificationsWithDeviceToken:]
+00020210 t -[CarrotAppDelegateHooks application:openURL:sourceApplication:annotation:]
+000202f6 t -[CarrotAppDelegateHooks applicationDidBecomeActive:]
+0002096c t -[CarrotAppDelegateHooks applicationDidEnterBackground:]
+00020360 t -[CarrotAppDelegateHooks sendDeviceToken:]
+00210f94 t -[STAAbstractAd setStartappDelegate:]
+00210f6c t -[STAAbstractAd startappDelegate]
+00000000002c80b0 S _GoogleMobileAdsVersionShortString
+00000000002aeb08 S _GoogleMobileAdsVersionString
+
+
+Cocoa Pods
+FileMD5Hash
+MBProgressHUD
+SSZipArchive
+`
