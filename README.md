@@ -15,7 +15,10 @@
 |||||asel|150|
 |||||lostkid-hz|150|
 
-......
+.
+.
+.
+
 ------
 
 # TOPICS OF JULY
