@@ -1,3 +1,3 @@
 | TIME      | TOPIC                                    |
 | --------- | ---------------------------------------- |
-| June.2017 | [JTool工具介绍翻译、用法举例](./JTool工具介绍翻译、用法举例/jtool - Taking the O out of otool.md) |
+| June.2017 | [JTool工具介绍翻译、用法举例](JTool工具介绍翻译、用法举例/jtool - Taking the O out of otool.md) |
