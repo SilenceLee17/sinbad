@@ -38,4 +38,4 @@
 
 
 ## Contributors
-**aofx、Alice、物以类聚、逍遥痕**
+**afox、Alice、物以类聚、逍遥痕**
