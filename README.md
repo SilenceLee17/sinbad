@@ -53,13 +53,13 @@
 |丙|liuswear| 布兜儿|布兜儿、AloneMonkey、liuswear、madmark、kiba、chen、xuaninitial| 实验code review 解码苹果上所有的Tokens decrypts/extracts all authorization tokens on macOS/OSX |
 |丁|	 ||| not yet  |
 |戊| 爱心觉罗|三点式| 杨君、爱心觉罗、cosmosdzh、龙幽、asel、lostkid-hz、七步阶 |  基于python的开源LLDB前端GUI-Voltron简介、安装及使用 |
-|己| 黑煤炭（353\*259\*3）  	 |rainyx(29751\*\*77) |rainyx(29751\*\*77) 拟人(753\*5771) 超级神话(120\*172599) 黑煤炭（353\*259\*3）ksmokee（11911\*5\*57）MXXIV（153\*\*1572）紫枫闲人（\*157\*7\*）| 实验-阻止iCloud 日历上的垃圾邮件邀请  |
+|己| 黑煤炭|rainyx|rainyx、拟人、超级神话、黑煤炭、ksmokee、MXXIV、紫枫闲人、| 实验-阻止iCloud 日历上的垃圾邮件邀请  |
 |庚|	 | |||
 |辛| 物以类聚  	 |afox| afox、物以类聚、XGalaxy、AliceForever、ctonegao、麋鹿了迷路了、yaren | joker：使用joker抽取iOS 11的kernelcache |
 |壬|    	 | || |
 |癸|  | | |  |
 |子| | ||  |
-|丑|	凌迟	|黄大先生|黄大先生(\*17\*390\*) brack(519\*7\*7) 凌迟(10\*13\*00\*\*) 小学生(9395\*99\*3) Arming(\*1575\*31) debug(\*07\*95910)|APT团队海莲花出新品啦——全新设计的高级macOS后门软体套件！
+|丑|	凌迟	|黄大先生|黄大先生、brack、凌迟、小学生、Arming、debug|APT团队海莲花出新品啦——全新设计的高级macOS后门软体套件！
 |寅|		||||
 |卯|		||||
 |辰|||||
