@@ -26,11 +26,11 @@
 |LEVEL|TOPIC|ATTACHMENT|DEADLINE|
 |:--|--|--|:--|
 |★|【Code Review】Tweak开发：espring之后弹自定义消息|[PopUpOnStart](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
-|★|Frida的基本功能 |[Cross-platform reversing with Frida](http://2015.zeronights.org/assets/files/23-Ravnas.pdf)|23:59 of 28th,August|
+|★|【非越狱调试】Frida的基本功能 |[Cross-platform reversing with Frida](http://2015.zeronights.org/assets/files/23-Ravnas.pdf)|23:59 of 28th,August|
 |★|【Code Review】Tweak开发：给调音量增加震动反馈|[Volbrate](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
-|★★|通过案例入门Frida|[frida-learn-by-example](http://www.ninoishere.com/frida-learn-by-example/)|23:59 of 28th,August|
+|★★|【非越狱调试】通过案例入门Frida|[frida-learn-by-example](http://www.ninoishere.com/frida-learn-by-example/)|23:59 of 28th,August|
 |★★|【Code Review】Tweak开发：每次respring之后给你播放一段音乐|[SoundSpring](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
-|★★|逆向iOS过程中一些有用的Frida脚本|[some useful frida script for iOS Reversing](https://github.com/as0ler/frida-scripts)|23:59 of 28th,August|
+|★★|【非越狱调试】逆向iOS过程中一些有用的Frida脚本|[some useful frida script for iOS Reversing](https://github.com/as0ler/frida-scripts)|23:59 of 28th,August|
 |★★★|苹果FSEvent深层文件系统调用记录方法论|[Apple FSEvents Forensics](http://nicoleibrahim.com/apple-fsevents-forensics/)|23:59 of 28th,August|
 |★★★|MacRansom,Mac上的勒索软件分析（带过反调试、反虚拟机）|[OSX/MacRansom:analyzing the latest ransomware to target macs](https://objective-see.com/blog/blog_0x1E.html)|23:59 of 28th,August|
 |★★★|iOS软件安全全局方法论| [iOS Application Security Review Methodology](http://research.aurainfosec.io/ios-application-security-review-methodology/)|23:59 of 28th,August|
