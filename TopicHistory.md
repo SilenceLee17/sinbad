@@ -1,5 +1,5 @@
 
-# TEAM SCORE OF JUNE
+# TEAM SCORE OF JULY
 
 |TEAM|POINT|DETAIL|
 |:-:|:-:|:--:|
