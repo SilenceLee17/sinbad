@@ -21,7 +21,7 @@
 
 ------
 
-# TOPICS OF JULY
+# TOPICS OF AUGUST
 
 |LEVEL|TOPIC|ATTACHMENT|DEADLINE|
 |:--|--|--|:--|
