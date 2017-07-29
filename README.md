@@ -25,16 +25,16 @@
 
 |LEVEL|TOPIC|ATTACHMENT|DEADLINE|
 |:--|--|--|:--|
-|★|基于python的开源LLDB前端GUI-Voltron简介、安装及使用|[extensible debugger UI toolkit written in Python](https://github.com/snare/voltron)|23:59 of 28th,July|
-|★| 如何在 macOS 上安装 Powershell 6.0|[How to install Microsoft PowerShell 6.0 on macOS](http://www.techrepublic.com/article/how-to-install-microsoft-powershell-6-0-on-macos/)|23:59 of 28th,July|
-|★|dyld_cache_extract - 从 macOS/iOS dyld_shared_cache 中提取动态库的工具|[dyld_cache_extract](https://github.com/macmade/dyld_cache_extract)|23:59 of 28th,July|
-|★★|MacSpy 被认为是 macOS 系统中目前最为复杂的间谍软件|[MacSpy: OS X RAT as a Service](https://www.alienvault.com/blogs/labs-research/macspy-os-x-rat-as-a-service)|23:59 of 28th,July|
-|★★|近期几款色情 App 开始大量在 Android 和 iOS 平台上传播，他们甚至找到了上架 Apple App Store 的方式|[PUA Operation Spreads Thousands of Explicit Apps in the Wild and on Legitimate App Stores](http://blog.trendmicro.com/trendlabs-security-intelligence/pua-operation-spreads-thousands-explicit-apps-wild-legitimate-app-stores/)|23:59 of 28th,July|
-|★★|APT团队海莲花出新品啦——全新设计的高级macOS后门软体套件！|[The New and Improved macOS Backdoor from OceanLotus](https://researchcenter.paloaltonetworks.com/2017/06/unit42-new-improved-macos-backdoor-oceanlotus/)|23:59 of 28th,July|
-|★★|如何在 macOS 中监控指定应用的 HTTPS 流量|[Monitoring HTTPS Traffic of a Single App on OSX](https://calebfenton.github.io/2017/05/27/monitoring-https-of-a-single-app-on-osx/)|23:59 of 28th,July|
-|★★★|“捡到一个亿”系列：盘古Janus原型：云舒幻盾原型：伸缩性规模化分布式全自动蠕虫木马代码定位检测系统暨入侵预警与防御系统原型机白皮书|[Laika BOSS: Object Scanning System](https://github.com/lmco/laikaboss)|23:59 of 28th,July|
-★★★|实验code review 解码苹果上所有的Tokens decrypts/extracts all authorization tokens on macOS/OSX|[MMeTokenDecrypt](https://github.com/manwhoami/MMeTokenDecrypt)|23:59 of 28th,July|
-|★★★|joker：使用joker抽取iOS 11的kernelcache|[Joker的介绍和使用方法](http://newosxbook.com/tools/joker.html)<br />[蒸米用joker对iOS 11的kernelcache进行dump后的结果](http://weibo.com/ttarticle/p/show?id=2309404115716285534270)|23:59 of 28th,July|
+|★|【Code Review】Tweak开发：espring之后弹自定义消息|[PopUpOnStart](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
+|★|Frida的基本功能 |[Cross-platform reversing with Frida](http://2015.zeronights.org/assets/files/23-Ravnas.pdf)|23:59 of 28th,August|
+|★|【Code Review】Tweak开发：给调音量增加震动反馈|[Volbrate](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
+|★★|通过案例入门Frida|[frida-learn-by-example](http://www.ninoishere.com/frida-learn-by-example/)|23:59 of 28th,August|
+|★★|【Code Review】Tweak开发：每次respring之后给你播放一段音乐|[SoundSpring](https://github.com/LacertosusRepo/Open-Source-Tweaks)|23:59 of 28th,August|
+|★★|逆向iOS过程中一些有用的Frida脚本|[some useful frida script for iOS Reversing](https://github.com/as0ler/frida-scripts)|23:59 of 28th,August|
+|★★★|苹果FSEvent深层文件系统调用记录方法论|[Apple FSEvents Forensics](http://nicoleibrahim.com/apple-fsevents-forensics/)|23:59 of 28th,August|
+|★★★|MacRansom,Mac上的勒索软件分析（带过反调试、反虚拟机）|[OSX/MacRansom:analyzing the latest ransomware to target macs](https://objective-see.com/blog/blog_0x1E.html)|23:59 of 28th,August|
+|★★★|iOS软件安全全局方法论| [iOS Application Security Review Methodology](http://research.aurainfosec.io/ios-application-security-review-methodology/)|23:59 of 28th,August|
+|★★★★|Project Zero 研究员 Felix总结的iOS安全开发方法论| [Secure iOS application development](https://github.com/felixgr/secure-ios-app-dev)|23:59 of 28th,August|
 
 >[TopicHistory](TopicHistory.md)
 
